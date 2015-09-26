@@ -1,0 +1,19 @@
+﻿.app-body {
+  background: white;
+  padding-left: 2em;
+  padding-right: 2em; }
+  .app-body .content {
+    font-size: 1.2em; }
+    .app-body .content .head {
+      font-size: 1.5em !important;
+      margin-top: 0.7em; }
+    .app-body .content .intent {
+      padding-left: 1em; }
+    .app-body .content .blue {
+      color: slateblue; }
+  .app-body .big-message {
+    font-size: 1.6em;
+    margin-top: 4em;
+    text-align: center; }
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,2 @@
+﻿var workingList = [];
+var reviewList = [];
