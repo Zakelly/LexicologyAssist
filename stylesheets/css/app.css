@@ -1,4 +1,5 @@
-﻿.app-body {
+.app-body {
+  overflow: auto !important;
   background: white;
   padding-left: 2em;
   padding-right: 2em; }
@@ -15,5 +16,19 @@
     font-size: 1.6em;
     margin-top: 4em;
     text-align: center; }
+  .app-body .logo {
+    text-align: center;
+    margin-top: 4em; }
+  .app-body .subtitle {
+    font-size: 1.2em;
+    margin-top: 25vh;
+    right: 0; }
+  .app-body .start-buttons {
+    margin-bottom: 1em; }
+  .app-body .start-buttons-absolute {
+    position: absolute;
+    bottom: 2em;
+    width: 100%;
+    padding: 0 4em 0 0; }
 
 /*# sourceMappingURL=app.css.map */

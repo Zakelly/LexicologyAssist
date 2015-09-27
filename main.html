@@ -1,15 +1,19 @@
-﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>
-    <button class="btn btn-primary btn-block">
-        重新开始背q(≧▽≦q)
-    </button>
-    <button class="btn btn-block">
-        继续上次来
-    </button>
-</body>
-</html>
+﻿
+<div class="app-body">
+    <div class="logo" id="logo">
+        <img src="./images/logo.png">
+        <div class="subtitle">
+        <p class="blue ">一起背词根</p>
+        <p class="blue " style="margin-top: 1em">作者：<a target="_blank" href="http://enet.zakelly.com">Zakelly</a></p>
+        </div>
+    </div>
+    <div class="start-buttons start-buttons-absolute" id="start-buttons">
+        <button ng-click="new()" class="btn btn-primary btn-block">
+            重新开始背q(≧▽≦q)
+        </button>
+        <button ng-click="old()" class="btn btn-info btn-block">
+            继续上次来
+        </button>
+    </div>
+</div>
+

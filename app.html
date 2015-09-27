@@ -3,77 +3,30 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>词汇学也许不那么难</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>某科学の超词汇学</title>
 
     <link rel="stylesheet" href="mobile-angular-ui/css/mobile-angular-ui-hover.min.css" />
     <link rel="stylesheet" href="mobile-angular-ui/css/mobile-angular-ui-base.min.css" />
     <link rel="stylesheet" href="mobile-angular-ui/css/mobile-angular-ui-desktop.min.css" />
     <script src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/angular.js/1.4.6/angular.min.js"></script>
+    <script src="//cdn.bootcss.com/angular.js/1.4.6/angular-route.min.js"></script>
     <script src="mobile-angular-ui/js/mobile-angular-ui.min.js">
     </script>
 
-    <link rel="stylesheet" href="stylesheets/css/app.min.css" />
+    <link rel="stylesheet" href="stylesheets/css/app.css" />
     <script src="app/js/database.js">
     </script>
     <script src="app/js/storage.js">
     </script>
     <script src="app/js/controller.js">
     </script>
+    <script src="app/js/ui-adjust.js">
+    </script>
 </head>
-<body ng-controller="WordCtrl">
-    <div class="app">
-        <div class="navbar navbar-app navbar-absolute-top">
-            <div class="btn-group pull-left">
-                <div ui-toggle="uiSidebarLeft" class="btn sidebar-toggle">
-                    <i style="font-size: 1.4em; margin-left: 0.2em;" class="fa fa-home"></i> 
-                </div>
-            </div>
-            <div class="navbar-brand navbar-brand-center" ui-yield-to="title">
-                <span class="ng-scope">
-                    一起背词根
-                </span>
-            </div>
-        </div>
-
-        <div class="navbar navbar-app navbar-absolute-bottom"> 
-            <div ng-if="!show_message" class="btn-group btn-group-justified" role="group" aria-label="...">
-                <div class="btn-group" role="group">
-                    <button ng-click="skipOne()" type="button" class="btn btn-primary"><i class="fa fa-exclamation-circle fa-navbar"></i> 等会再看一遍</button>
-                </div>
-                <div class="btn-group" role="group">
-                    <button ng-click="passOne()" type="button" class="btn btn-primary"><i class="fa fa-check-circle fa-navbar"></i> 记住了</button>
-                </div>
-            </div>
-            <div ng-if="show_message" class="btn-group btn-group-justified" role="group" aria-label="...">
-                <div class="btn-group" role="group">
-                    <button ng-click="continue()" type="button" class="btn btn-primary"><i class="fa fa-check-circle fa-navbar"></i> 继续</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="app-body">
-            <ng-view class="content">
-                <div id="page-morpheme" ng-if="!show_message">
-                    <legend class="head" ng-bind="morpheme.name"></legend>
-                    <div class="intent">
-                        <label class="blue" ng-bind="morpheme.explanation"></label>
-                        <br /><label>ex.</label>
-                        <div class="intent" ng-repeat="example in morpheme.examples">
-                            <label class="blue" ng-bind="example.word"></label>
-                            <label ng-bind="example.explanation"></label>
-                        </div>
-                    </div>
-                    <legend>&nbsp;</legend>
-                    <label class="blue">下一个：</label><label ng-bind="next"></label>
-                </div>
-                <div id="page-info" ng-if="show_message">
-                    <label class="blue big-message" ng-bind="message"></label>
-                </div>
-            </ng-view>
-        </div>
+<body>
+    <div class="app" ng-view>
     </div>
-
 </body>
 </html>
