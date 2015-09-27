@@ -11,6 +11,7 @@ var noWords = "没有词根了哦";
 var startingReview = "开始复习";
 
 var selectAlphabet = [];
+var isReviewing = false;
 
 function WordCtrl($scope, $routeParams, $location) {
     $scope.morpheme = {name:"",explanation:"",examples:[]};
@@ -35,11 +36,15 @@ function WordCtrl($scope, $routeParams, $location) {
         if (haveOne())
             pickOne($scope);
         else {
-            startReview();
-            if (haveOne())
-                message($scope, startingReview);
-            else
+            if (isReviewing)
                 message($scope, noWords);
+            else {
+                startReview();
+                if (haveOne())
+                    message($scope, startingReview);
+                else
+                    message($scope, noWords);
+            }
         }
     };
 
@@ -53,9 +58,10 @@ function WordCtrl($scope, $routeParams, $location) {
             pickOne($scope);
         }
         else {
+            saveStorage();
             $location.path('/main');
         }
-    }
+    };
 
     $scope.return = function () {
         $location.path('/main');
@@ -73,22 +79,35 @@ function init(list) {
 
 
 function startReview() {
-    workingList = reviewList;
-    reviewList = [];
+    isReviewing = true;
     saveStorage();
 }
 
 function haveOne() {
-    return (workingList.length > 0);
+    if (!isReviewing) {
+        return (workingList.length > 0);
+    }
+    else {
+        return (reviewList.length > 0);
+    }
 }
 
 function pickOne($scope) {
     saveStorage();
-    var index = workingList.shift();
+    var index;
+    var list;
+    if (!isReviewing) {
+        index = workingList.shift();
+        list = workingList;
+    }
+    else {
+        index = reviewList.shift();
+        list = reviewList;
+    }
     $scope.morpheme = morphemes[index];
     $scope.nowIndex = index;
-    if (workingList.length > 0) {
-        $scope.next = morphemes[workingList[0]].name;
+    if (list.length > 0) {
+        $scope.next = morphemes[list[0]].name;
     }
     else {
         $scope.next = "无";
@@ -104,15 +123,25 @@ function message($scope, msg) {
 
 
 function MainCtrl($scope, $routeParams, $location) {
+    isReviewing = false;
     $scope.new = function () {
         $location.path('/select');
     };
     $scope.old = function () {
         getStorage();
-        if (!workingList && workingList.length > 0)
+        if (workingList && workingList.length > 0)
             $location.path('/word');
         else
             alert("Sorry,未检测到您上次使用的信息.");
+    };
+    $scope.review = function () {
+        getStorage();
+        if (reviewList && reviewList.length > 0) {
+            isReviewing = true;
+            $location.path('/word');
+        }
+        else
+            alert("生词本为空.");
     };
 }
 
@@ -120,7 +149,7 @@ function SelectCtrl($scope, $routeParams, $location) {
     var alphabet = [];
     for (var i = 0; i < 26; i++) {
         if (morphemesIndex[i] < morphemesIndex[i + 1]) {
-            var obj = {index:i,name:String.fromCharCode(i + 65),select:false};
+            var obj = {idx:i,name:String.fromCharCode(i + 65),select:false};
             alphabet.push(obj);
         }
     }
@@ -138,7 +167,7 @@ function SelectCtrl($scope, $routeParams, $location) {
         selectAlphabet = [];
         for(var i in $scope.alphabet) {
             if ($scope.alphabet[i].select)
-                selectAlphabet.push(Number(i));
+                selectAlphabet.push(Number($scope.alphabet[i].idx));
         }
         if (selectAlphabet.length > 0) {
             init(selectAlphabet);
