@@ -1,16 +1,20 @@
 ﻿var workingList = [];
 var reviewList = [];
+var lastIsReviewing = false;
 
 function saveStorage() {
     localStorage.setItem("workingList",workingList);
     localStorage.setItem("reviewList",reviewList);
+    localStorage.setItem("lastIsReviewing",(lastIsReviewing)?1:0);
     setCookie("workingList",workingList);
     setCookie("reviewList",reviewList);
+    setCookie("lastIsReviewing",(lastIsReviewing)?1:0);
 }
 
 function getStorage() {
     workingList = localStorage.getItem("workingList");
     reviewList = localStorage.getItem("reviewList");
+    lastIsReviewing = localStorage.getItem("lastIsReviewing");
 
     if (!workingList || workingList == "")
         workingList = getCookie("workingList");
@@ -28,6 +32,15 @@ function getStorage() {
         reviewList = [];
     else
         reviewList = eval("(["+reviewList+"])");
+
+    if (lastIsReviewing == null) {
+        lastIsReviewing = getCookie("lastIsReviewing");
+    }
+    if (lastIsReviewing == "null")
+        lastIsReviewing = 0;
+    else
+        lastIsReviewing = Number(lastIsReviewing);
+    lastIsReviewing = (lastIsReviewing == 1);
 }
 
 

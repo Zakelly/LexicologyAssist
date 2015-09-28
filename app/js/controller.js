@@ -12,12 +12,23 @@ var startingReview = "开始复习";
 
 var selectAlphabet = [];
 var isReviewing = false;
+var fromMain = false;
 
 function WordCtrl($scope, $routeParams, $location) {
     $scope.morpheme = {name:"",explanation:"",examples:[]};
     $scope.nowIndex = -1;
     $scope.next = "无";
     $scope.show_message = true;
+
+
+    if (!fromMain) {
+        getStorage();
+        isReviewing = lastIsReviewing;
+    }
+    else {
+        lastIsReviewing = isReviewing;
+        saveStorage();
+    }
 
     if (haveOne()) {
         pickOne($scope);
@@ -58,12 +69,14 @@ function WordCtrl($scope, $routeParams, $location) {
             pickOne($scope);
         }
         else {
+            stopReview();
             saveStorage();
             $location.path('/main');
         }
     };
 
     $scope.return = function () {
+        stopReview();
         $location.path('/main');
     };
 }
@@ -79,7 +92,12 @@ function init(list) {
 
 
 function startReview() {
-    isReviewing = true;
+    lastIsReviewing = isReviewing = true;
+    saveStorage();
+}
+
+function stopReview() {
+    lastIsReviewing = isReviewing = false;
     saveStorage();
 }
 
@@ -124,6 +142,7 @@ function message($scope, msg) {
 
 function MainCtrl($scope, $routeParams, $location) {
     isReviewing = false;
+    fromMain = true;
     $scope.new = function () {
         $location.path('/select');
     };
@@ -146,6 +165,7 @@ function MainCtrl($scope, $routeParams, $location) {
 }
 
 function SelectCtrl($scope, $routeParams, $location) {
+    fromMain = true;
     var alphabet = [];
     for (var i = 0; i < 26; i++) {
         if (morphemesIndex[i] < morphemesIndex[i + 1]) {
