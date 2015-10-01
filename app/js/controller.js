@@ -7,7 +7,7 @@
             otherwise({redirectTo: '/main'});
     }]);
 
-var noWords = "没有词根了哦";
+var noWords = "没有词了哦";
 var startingReview = "开始复习";
 
 var selectAlphabet = [];
@@ -84,7 +84,7 @@ function WordCtrl($scope, $routeParams, $location) {
 function init(list) {
     workingList = [];
     for (var i in list) {
-        for (var j = morphemesIndex[list[i]]; j < morphemesIndex[list[i] + 1]; j++) {
+        for (var j = morphemesIndex[list[i]].start; j < morphemesIndex[list[i]].end; j++) {
             workingList.push(j);
         }
     }
@@ -167,11 +167,9 @@ function MainCtrl($scope, $routeParams, $location) {
 function SelectCtrl($scope, $routeParams, $location) {
     fromMain = true;
     var alphabet = [];
-    for (var i = 0; i < 26; i++) {
-        if (morphemesIndex[i] < morphemesIndex[i + 1]) {
-            var obj = {idx:i,name:String.fromCharCode(i + 65),select:false};
-            alphabet.push(obj);
-        }
+    for (var i = 0; i < morphemesIndex.length; i++) {
+        var obj = {idx:i,name:morphemesIndex[i].name,select:false};
+        alphabet.push(obj);
     }
     $scope.alphabet = alphabet;
 

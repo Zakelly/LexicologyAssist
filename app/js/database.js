@@ -1,4 +1,5 @@
-﻿morphemesIndex = [0,36,54,111,131,146,181,198,214,224,231,231,264,300,320,335,394,399,416,471,509,516,547,548,548,548,550];
+﻿morphemesIndex = [{"name":"词根-A","start":0,"end":36},{"name":"词根-B","start":36,"end":54},{"name":"词根-C","start":54,"end":111},{"name":"词根-D","start":111,"end":131},{"name":"词根-E","start":131,"end":146},{"name":"词根-F","start":146,"end":181},{"name":"词根-G","start":181,"end":198},{"name":"词根-H","start":198,"end":214},{"name":"词根-I","start":214,"end":224},{"name":"词根-J","start":224,"end":231},{"name":"词根-L","start":231,"end":264},{"name":"词根-M","start":264,"end":300},{"name":"词根-N","start":300,"end":320},{"name":"词根-O","start":320,"end":335},{"name":"词根-P","start":335,"end":394},{"name":"词根-Q","start":394,"end":399},{"name":"词根-R","start":399,"end":416},{"name":"词根-S","start":416,"end":471},{"name":"词根-T","start":471,"end":509},{"name":"词根-U","start":509,"end":516},{"name":"词根-V","start":516,"end":547},{"name":"词根-W","start":547,"end":548},{"name":"词根-Z","start":548,"end":550},
+    {"name":"前缀","start":550,"end":661},{"name":"后缀","start":661,"end":790}];
 morphemes = [{
     'name': 'acid, acri, acr, acu',
     'explanation': 'sour; sharp',
@@ -426,7 +427,7 @@ morphemes = [{
 },
 {
     'name': 'claim, clam',
-    'explanation': 'cry out',
+    'explanation': 'to cry out',
     'examples': [{'word': 'acclaim','explanation': 'v. 欢呼，喝彩'},{'word': 'declaim','explanation': 'v. 朗诵，演说'},{'word': 'exclaim','explanation': 'v. 叫喊，大声说'},{'word': 'proclaim','explanation': 'v. 公布，声明'},{'word': 'clamor','explanation': 'n. 喧哗，吵闹'}]
 },
 {
@@ -2748,4 +2749,1205 @@ morphemes = [{
     'name': 'zoo',
     'explanation': 'animal',
     'examples': [{'word': 'zoology','explanation': 'n. 动物学'}]
-}];
+},
+    {
+        'name': 'a-',
+        'explanation': 'not; on; intensive',
+        'examples': [{'word': 'acentric','explanation': 'a. 无中心的'},{'word': 'amoral','explanation': 'a. 非道德的'},{'word': 'ahead','explanation': 'adv. 在前面'},{'word': 'aside','explanation': 'ad. 在边上'},{'word': 'abide','explanation': 'a. 遵守'}]
+    },
+    {
+        'name': 'ab-',
+        'explanation': 'from; away; off',
+        'examples': [{'word': 'abnormal','explanation': 'a. 反常的'},{'word': 'abuse','explanation': 'v. 滥用'}]
+    },
+    {
+        'name': 'aX-',
+        'explanation': 'to; at; for',
+        'examples': [{'word': 'accompany','explanation': 'v.陪伴'},{'word': 'accustom','explanation': 'v.使习惯'}]
+    },
+    {
+        'name': 'ad-',
+        'explanation': 'do; intensive',
+        'examples': [{'word': 'adjust','explanation': 'v. 调整'},{'word': 'adventure','explanation': 'v. 冒险'}]
+    },
+    {
+        'name': 'amphi-',
+        'explanation': 'two',
+        'examples': [{'word': 'amphibian','explanation': 'n. 两栖动物'}]
+    },
+    {
+        'name': 'an-',
+        'explanation': 'not; without',
+        'examples': [{'word': 'anarchism','explanation': 'n. 无政府主义'},{'word': 'anharmonic','explanation': 'a. 不和谐的'}]
+    },
+    {
+        'name': 'ante-',
+        'explanation': 'before',
+        'examples': [{'word': 'antedate','explanation': 'v. 先于，早于'},{'word': 'anteroom','explanation': 'n. 前室'}]
+    },
+    {
+        'name': 'anti-',
+        'explanation': 'against; opposite to',
+        'examples': [{'word': 'antitank','explanation': 'a.反坦克的'},{'word': 'antiwar','explanation': 'a.反战的'}]
+    },
+    {
+        'name': 'apo-',
+        'explanation': 'far from',
+        'examples': [{'word': 'apogee','explanation': 'n. 远地点'},{'word': 'apostasy','explanation': 'n. 背叛，脱党'}]
+    },
+    {
+        'name': 'auto-',
+        'explanation': 'self',
+        'examples': [{'word': 'automatic','explanation': 'a. 自动的'},{'word': 'autograph','explanation': 'n. 亲笔签字'}]
+    },
+    {
+        'name': 'be-',
+        'explanation': 'to make, intensive; aside',
+        'examples': [{'word': 'befool','explanation': 'v. 欺骗'},{'word': 'befall','explanation': 'v. 降临，发生'},{'word': 'beside','explanation': 'prep. 在旁边'},{'word': 'behind','explanation': 'prep. 在后边'}]
+    },
+    {
+        'name': 'bene-',
+        'explanation': 'well, good',
+        'examples': [{'word': 'benevolent','explanation': 'a. 好意的'},{'word': 'benefit','explanation': 'n. 好处，利益'}]
+    },
+    {
+        'name': 'bi-',
+        'explanation': 'double, two',
+        'examples': [{'word': 'biweekly','explanation': 'n. 双周的（刊）'},{'word': 'bicolor','explanation': 'a. 双色的'}]
+    },
+    {
+        'name': 'by-',
+        'explanation': 'secondary; less important',
+        'examples': [{'word': 'byproduct','explanation': 'n. 副产品'},{'word': 'byroad','explanation': 'n. 辅路'}]
+    },
+    {
+        'name': 'cata-',
+        'explanation': 'down; fully',
+        'examples': [{'word': 'cataract','explanation': 'n. 大瀑布，洪流'},{'word': 'category','explanation': 'n. 类，种'}]
+    },
+    {
+        'name': 'circum-',
+        'explanation': 'around; round about',
+        'examples': [{'word': 'circumference','explanation': 'n. 周长'},{'word': 'circumnavigate','explanation': 'v. 环球航行'}]
+    },
+    {
+        'name': 'co-',
+        'explanation': 'together, with; wholly',
+        'examples': [{'word': 'coeducation','explanation': 'n. 男女同校'},{'word': 'cooperation','explanation': 'n. 合作'}]
+    },
+    {
+        'name': 'col-, cor-',
+        'explanation': 'together, with',
+        'examples': [{'word': 'collocate','explanation': 'v. 并置，并列'},{'word': 'collapse','explanation': 'v. 倒塌'}]
+    },
+    {
+        'name': 'com-, con-',
+        'explanation': 'together, with',
+        'examples': [{'word': 'combine','explanation': 'v. 结合，联合'},{'word': 'compassion','explanation': 'n. 同情'}]
+    },
+    {
+        'name': 'contra-',
+        'explanation': 'against',
+        'examples': [{'word': 'contrary','explanation': 'a. 相反的'},{'word': 'contradict','explanation': 'v. 反驳，矛盾'}]
+    },
+    {
+        'name': 'counter-',
+        'explanation': 'against',
+        'examples': [{'word': 'countercurrent','explanation': 'n. 逆流'},{'word': 'counteract','explanation': 'v. 对抗，抵消'}]
+    },
+    {
+        'name': 'de-',
+        'explanation': 'down; make, intensive',
+        'examples': [{'word': 'destruction','explanation': 'n. 破坏'},{'word': 'detrain','explanation': 'v. 下火车'},{'word': 'delimit','explanation': 'v. 划定界限'},{'word': 'design','explanation': 'v. 设计，计划'}]
+    },
+    {
+        'name': 'deca-',
+        'explanation': 'ten',
+        'examples': [{'word': 'decagon','explanation': 'n. 十角形'},{'word': 'decameter','explanation': 'n. 十米'}]
+    },
+    {
+        'name': 'deci-',
+        'explanation': 'tenth part',
+        'examples': [{'word': 'decimeter','explanation': 'n. 十分之一米'},{'word': 'decigram','explanation': 'n. 十分之一克'}]
+    },
+    {
+        'name': 'demi-',
+        'explanation': 'half',
+        'examples': [{'word': 'demigod','explanation': 'n. 半神半人的'},{'word': 'demilune','explanation': 'n. 半月'}]
+    },
+    {
+        'name': 'di-',
+        'explanation': 'double; make smaller',
+        'examples': [{'word': 'digamist','explanation': 'n. 再婚者'},{'word': 'dioxide','explanation': 'n. 二氧化物'},{'word': 'dilute','explanation': 'v. 冲淡， 稀释'},{'word': 'diminish','explanation': 'v. 减少，消失'}]
+    },
+    {
+        'name': 'dia-',
+        'explanation': 'through; between; across',
+        'examples': [{'word': 'dialogue','explanation': 'n. 对话'},{'word': 'diagonal','explanation': 'n. 对角线'}]
+    },
+    {
+        'name': 'dif-',
+        'explanation': 'not; apart',
+        'examples': [{'word': 'differ','explanation': 'v. 不同'},{'word': 'difficult','explanation': 'a. 困难的'}]
+    },
+    {
+        'name': 'dis-',
+        'explanation': 'not; apart, away',
+        'examples': [{'word': 'dislike','explanation': 'v. 不喜欢'},{'word': 'disorder','explanation': 'n. 无次序'},{'word': 'dispart','explanation': 'v. 分离'},{'word': 'distract','explanation': 'v. 转移，分散'}]
+    },
+    {
+        'name': 'dys-',
+        'explanation': 'suffer from; bad',
+        'examples': [{'word': 'dysfunction','explanation': 'n. 机能失调'},{'word': 'dysphonia','explanation': 'n. 发音困难'}]
+    },
+    {
+        'name': 'e-, ef-',
+        'explanation': 'out of',
+        'examples': [{'word': 'emigrate','explanation': 'v. 移居国外'},{'word': 'evade','explanation': 'v. 逃出，逃避'}]
+    },
+    {
+        'name': 'em-, en-',
+        'explanation': 'in, into, near; to make',
+        'examples': [{'word': 'embrace','explanation': 'v. 拥抱'},{'word': 'embed','explanation': 'v. 安置，嵌于'},{'word': 'embitter','explanation': 'v. 使痛苦'},{'word': 'encompass','explanation': 'v. 包围，围绕'}]
+    },
+    {
+        'name': 'endo-',
+        'explanation': 'inside',
+        'examples': [{'word': 'endogamy','explanation': 'n. 内部通婚'},{'word': 'endotherm','explanation': 'n. 恒温动物'}]
+    },
+    {
+        'name': 'epi-',
+        'explanation': 'upon; besides; among',
+        'examples': [{'word': 'epidermal','explanation': 'a. 表皮的'},{'word': 'epidemic','explanation': 'a. 流行的'}]
+    },
+    {
+        'name': 'eu-',
+        'explanation': 'well',
+        'examples': [{'word': 'eulogize','explanation': 'v. 赞美'},{'word': 'eugenics','explanation': 'n. 优生学'}]
+    },
+    {
+        'name': 'ex-',
+        'explanation': 'out of; former',
+        'examples': [{'word': 'export','explanation': 'v. 出口'},{'word': 'exclude','explanation': 'v. 排外'},{'word': 'ex-wife','explanation': 'n. 前妻'},{'word': 'ex-president','explanation': 'n. 前任总统'}]
+    },
+    {
+        'name': 'exo-',
+        'explanation': 'going out; from',
+        'examples': [{'word': 'exogamy','explanation': 'n. 外族通婚'},{'word': 'exocentric','explanation': 'a. 外乡的，离心的'}]
+    },
+    {
+        'name': 'extra-',
+        'explanation': 'beyond',
+        'examples': [{'word': 'extraordinary','explanation': 'a. 格外的'},{'word': 'extrasolar','explanation': 'a. 太阳系以外的'}]
+    },
+    {
+        'name': 'fore-',
+        'explanation': 'before',
+        'examples': [{'word': 'foresee','explanation': 'v. 预见'},{'word': 'forehead','explanation': 'n. 前额'}]
+    },
+    {
+        'name': 'hecto-',
+        'explanation': 'hundred',
+        'examples': [{'word': 'hectogram','explanation': 'n. 一百克'},{'word': 'hectowatt','explanation': 'n. 一百瓦'}]
+    },
+    {
+        'name': 'hemi-',
+        'explanation': 'half',
+        'examples': [{'word': 'hemisphere','explanation': 'n. 半球'},{'word': 'hemicycle','explanation': 'n. 半圆形'}]
+    },
+    {
+        'name': 'hepta-',
+        'explanation': 'seven',
+        'examples': [{'word': 'heptagon','explanation': 'n. 七角形'},{'word': 'heptaglot','explanation': 'n. 使用七种语言'}]
+    },
+    {
+        'name': 'hetero-',
+        'explanation': 'other, different',
+        'examples': [{'word': 'heterosexual','explanation': 'a. 异性的'},{'word': 'heterogeneous','explanation': 'a. 异教的，不同的'}]
+    },
+    {
+        'name': 'hexa-',
+        'explanation': 'six',
+        'examples': [{'word': 'hexagon','explanation': 'n. 六角形'},{'word': 'hexachord','explanation': 'n. 六弦琴'}]
+    },
+    {
+        'name': 'holo-',
+        'explanation': 'all',
+        'examples': [{'word': 'holography','explanation': 'n. 全息摄影'},{'word': 'holocaust','explanation': 'n. 大屠杀，大破坏'}]
+    },
+    {
+        'name': 'homo-',
+        'explanation': 'same',
+        'examples': [{'word': 'homogeneous','explanation': 'a. 同类的， 同族的'},{'word': 'homocentric','explanation': 'a. 同中心的'}]
+    },
+    {
+        'name': 'hyper-',
+        'explanation': 'above, beyond',
+        'examples': [{'word': 'hyperactive','explanation': 'a. 活动过度的'},{'word': 'hypersensitive','explanation': 'a. 过敏的'}]
+    },
+    {
+        'name': 'hypo-',
+        'explanation': 'under',
+        'examples': [{'word': 'hypodermic','explanation': 'a. 皮下的'},{'word': 'hypotension','explanation': 'n. 低血压'}]
+    },
+    {
+        'name': 'il-, ir-',
+        'explanation': 'not; to make, to enter',
+        'examples': [{'word': 'illegal','explanation': 'a. 非法的'},{'word': 'illogical','explanation': 'a. 不合逻辑的'},{'word': 'illustrate','explanation': 'v. 说明，阐明'},{'word': 'irruption','explanation': 'n. 闯入，冲入'}]
+    },
+    {
+        'name': 'im-, in-',
+        'explanation': 'not; into',
+        'examples': [{'word': 'impossible','explanation': 'a. 不可能的'},{'word': 'immoral','explanation': 'a. 不道德的'},{'word': 'import','explanation': 'n. 进口'},{'word': 'imprison','explanation': 'v. 监禁'}]
+    },
+    {
+        'name': 'inter-',
+        'explanation': 'between, among',
+        'examples': [{'word': 'international','explanation': 'a. 国际的'},{'word': 'interpersonal','explanation': 'a. 人与人之间的'}]
+    },
+    {
+        'name': 'intra-',
+        'explanation': 'inward, within',
+        'examples': [{'word': 'intraparty','explanation': 'a. 党内的'},{'word': 'intranational','explanation': 'a. 国内的'}]
+    },
+    {
+        'name': 'intro-',
+        'explanation': 'inward, within',
+        'examples': [{'word': 'introduce','explanation': 'v. 介绍，引入'},{'word': 'introspect','explanation': 'v. 内省，反省'}]
+    },
+    {
+        'name': 'iso-',
+        'explanation': 'equal',
+        'examples': [{'word': 'isotherm','explanation': 'n. 等温线'},{'word': 'isomorphic','explanation': 'a. 同形的'}]
+    },
+    {
+        'name': 'kilo-',
+        'explanation': 'thousand',
+        'examples': [{'word': 'kilogram','explanation': 'n. 公斤'},{'word': 'kilometer','explanation': 'n. 公里'}]
+    },
+    {
+        'name': 'macro-',
+        'explanation': 'large, long',
+        'examples': [{'word': 'macroworld','explanation': 'n. 宏观世界'},{'word': 'macroclimate','explanation': 'n. 大气候'}]
+    },
+    {
+        'name': 'mal-',
+        'explanation': 'badly, ill',
+        'examples': [{'word': 'malcontent','explanation': 'a. 不满的'},{'word': 'malpractice','explanation': 'n. 不法行为'}]
+    },
+    {
+        'name': 'meta-',
+        'explanation': 'beyond',
+        'examples': [{'word': 'metaphysics','explanation': 'n. 形而上学'},{'word': 'metapsychology','explanation': 'n. 超心理学'}]
+    },
+    {
+        'name': 'micro-',
+        'explanation': 'small',
+        'examples': [{'word': 'microworld','explanation': 'n. 微观世界'},{'word': 'microbiology','explanation': 'n. 微生物学'}]
+    },
+    {
+        'name': 'milli-',
+        'explanation': 'thousandth',
+        'examples': [{'word': 'millimeter','explanation': 'n. 毫米'},{'word': 'millisecond','explanation': 'n. 千分之一秒'}]
+    },
+    {
+        'name': 'mini-',
+        'explanation': 'small',
+        'examples': [{'word': 'minibus','explanation': 'n. 小公共汽车'},{'word': 'miniwar','explanation': 'n. 小规模战争'}]
+    },
+    {
+        'name': 'mis-',
+        'explanation': 'wrong, bad, ill',
+        'examples': [{'word': 'misspell','explanation': 'v. 拼写错误'},{'word': 'misunderstand','explanation': 'v. 误解'}]
+    },
+    {
+        'name': 'mono-',
+        'explanation': 'single, sole, alone',
+        'examples': [{'word': 'monarch','explanation': 'n. 君主，独裁者'},{'word': 'monogamy','explanation': 'n. 一夫一妻制'}]
+    },
+    {
+        'name': 'multi-',
+        'explanation': 'much, many',
+        'examples': [{'word': 'multilingual','explanation': 'a. 多种语言的'},{'word': 'multidirectional','explanation': 'a.多方向的'}]
+    },
+    {
+        'name': 'neo-',
+        'explanation': 'new',
+        'examples': [{'word': 'neonatal','explanation': 'a. 新生的，初生的'},{'word': 'neogamist','explanation': 'n. 新婚者'}]
+    },
+    {
+        'name': 'non-',
+        'explanation': 'not',
+        'examples': [{'word': 'nonexistent','explanation': 'a. 不存在的'},{'word': 'nonsmoking','explanation': 'a. 不准吸烟的'}]
+    },
+    {
+        'name': 'ob-',
+        'explanation': 'against, over, about, near',
+        'examples': [{'word': 'oblivion','explanation': 'n. 忘却，忘记'},{'word': 'obscure','explanation': 'a. 模糊的'}]
+    },
+    {
+        'name': 'octa-',
+        'explanation': 'eight, eighth',
+        'examples': [{'word': 'octagon','explanation': 'n. 八角形'}]
+    },
+    {
+        'name': 'omni-',
+        'explanation': 'all',
+        'examples': [{'word': 'omnipresent','explanation': 'a. 无所不在的'},{'word': 'omnipotent','explanation': 'a. 全能的'}]
+    },
+    {
+        'name': 'out-',
+        'explanation': 'beyond; out',
+        'examples': [{'word': 'outdo','explanation': 'v. 胜过，战胜'},{'word': 'outlive','explanation': 'v. 活得比…长'},{'word': 'outskirts','explanation': 'n. 郊区'},{'word': 'outflow','explanation': 'v. 流出'}]
+    },
+    {
+        'name': 'over-',
+        'explanation': 'beyond; above; across',
+        'examples': [{'word': 'overstudy','explanation': ' n. 用功过度'},{'word': 'overwork','explanation': ' n. 过度劳累'},{'word': 'overlap','explanation': 'n./v. 重叠'},{'word': 'overbridge','explanation': ' n. 天桥'},{'word': 'overturn','explanation': ' n. 倾覆'},{'word': 'overthrow','explanation': ' v. 推翻'}]
+    },
+    {
+        'name': 'paleo-',
+        'explanation': 'old',
+        'examples': [{'word': 'paleozoology','explanation': 'n. 古动物学'},{'word': 'paleotechnic','explanation': 'a. 古代技术的'}]
+    },
+    {
+        'name': 'pan-',
+        'explanation': 'all',
+        'examples': [{'word': 'pan-American','explanation': 'a. 泛美的'},{'word': 'pandemic','explanation': 'a. 大范围流行的'}]
+    },
+    {
+        'name': 'para-',
+        'explanation': 'beside; against',
+        'examples': [{'word': 'paralyze','explanation': 'v. 瘫痪'},{'word': 'paragon','explanation': 'n. 典范'},{'word': 'paratroops','explanation': 'n. 空降部队'},{'word': 'paradrop','explanation': 'n. 空投，空降'}]
+    },
+    {
+        'name': 'pen-',
+        'explanation': 'almost',
+        'examples': [{'word': 'peninsula','explanation': 'n. 半岛'},{'word': 'penumbra','explanation': 'n. 半阴影'}]
+    },
+    {
+        'name': 'penta-',
+        'explanation': 'five',
+        'examples': [{'word': 'pentagon','explanation': 'n. 五角形， 五角大楼'},{'word': 'pentagram','explanation': 'n. 五角星形'}]
+    },
+    {
+        'name': 'pre-',
+        'explanation': 'before',
+        'examples': [{'word': 'preschool','explanation': 'n. 学龄前'},{'word': 'prehistory','explanation': 'n. 史前'}]
+    },
+    {
+        'name': 'proto-',
+        'explanation': 'first',
+        'examples': [{'word': 'protozoon','explanation': 'n. 原生动物'},{'word': 'protohuman','explanation': 'a. 早期原始人的'}]
+    },
+    {
+        'name': 'pseudo-',
+        'explanation': 'false',
+        'examples': [{'word': 'pseudonym','explanation': 'n. 假名，笔名'},{'word': 'pseudoscience','explanation': 'n. 伪科学'}]
+    },
+    {
+        'name': 'per-',
+        'explanation': 'through, away; false, bad',
+        'examples': [{'word': 'perfidy','explanation': 'n. 不忠，背叛'},{'word': 'perfunctory','explanation': 'a. 草率的'},{'word': 'perspective','explanation': 'n. 视角，角度'},{'word': 'perennial','explanation': 'a. 全年的，终年的'}]
+    },
+    {
+        'name': 'peri-',
+        'explanation': 'around, about',
+        'examples': [{'word': 'perigon','explanation': 'n. 周角'},{'word': 'periderm','explanation': 'n. 表皮'}]
+    },
+    {
+        'name': 'poly-',
+        'explanation': 'many',
+        'examples': [{'word': 'polygamy','explanation': 'n. 一夫多妻制'},{'word': 'polygon','explanation': 'n. 多角形'}]
+    },
+    {
+        'name': 'post-',
+        'explanation': 'after, behind',
+        'examples': [{'word': 'postwar','explanation': 'a. 战后的'}]
+    },
+    {
+        'name': 'pro-',
+        'explanation': 'forward; many; for',
+        'examples': [{'word': 'progress','explanation': 'n. 进步'},{'word': 'prolong','explanation': 'v. 延长'},{'word': 'prosperous','explanation': 'a. 兴旺的'},{'word': 'pro-American','explanation': 'a. 亲美的'},{'word': 'proslavery','explanation': 'a.赞成奴隶制的'}]
+    },
+    {
+        'name': 'quadri-',
+        'explanation': 'four',
+        'examples': [{'word': 'quadrangle','explanation': 'n. 四角形'},{'word': 'quadricycle','explanation': 'n. 四轮车'}]
+    },
+    {
+        'name': 'quasi-',
+        'explanation': 'partly',
+        'examples': [{'word': 'quasi-official','explanation': 'n. 半官方的'},{'word': 'quasi-war','explanation': 'n. 准战争'}]
+    },
+    {
+        'name': 're-',
+        'explanation': 'back; again',
+        'examples': [{'word': 'recall','explanation': 'v. 回忆'},{'word': 'reflect','explanation': 'v. 回想，反射'},{'word': 'reappear','explanation': 'v. 再出现'},{'word': 'rearrange','explanation': 'v. 重新安排'}]
+    },
+    {
+        'name': 'retro-',
+        'explanation': 'backward',
+        'examples': [{'word': 'retrograde','explanation': 'v. 后退，倒退'},{'word': 'retrogress','explanation': 'v. 倒退，退化'}]
+    },
+    {
+        'name': 'se-',
+        'explanation': 'away; apart',
+        'examples': [{'word': 'secede','explanation': 'v. 正式退出组织'},{'word': 'select','explanation': 'v. 选出'}]
+    },
+    {
+        'name': 'semi-',
+        'explanation': 'half',
+        'examples': [{'word': 'semimonthly','explanation': 'n. 半月刊'},{'word': 'semicircle','explanation': 'n. 半圆'}]
+    },
+    {
+        'name': 'sept-',
+        'explanation': 'seven',
+        'examples': [{'word': 'septangle','explanation': 'n. 七角形'},{'word': 'September','explanation': 'n. 九月（古罗马的七月）'}]
+    },
+    {
+        'name': 'sex-',
+        'explanation': 'six',
+        'examples': [{'word': 'sexangle','explanation': 'n. 六角形'},{'word': 'sexdigital','explanation': 'a. 六指的'}]
+    },
+    {
+        'name': 'step-',
+        'explanation': 'orphaned',
+        'examples': [{'word': 'stepfather','explanation': 'n. 继父'}]
+    },
+    {
+        'name': 'stereo-',
+        'explanation': 'having 3D of space',
+        'examples': [{'word': 'stereosonic','explanation': 'a. 立体声的'},{'word': 'stereograph','explanation': 'n. 立体照片'}]
+    },
+    {
+        'name': 'sub-',
+        'explanation': 'under; near',
+        'examples': [{'word': 'submerge','explanation': 'v. 沉没，淹没'},{'word': 'subordinate','explanation': 'a. 附属的'},{'word': 'subcentral','explanation': 'a. 接近中心的'},{'word': 'subadult','explanation': 'a. 接近成年的'}]
+    },
+    {
+        'name': 'suX-',
+        'explanation': 'under',
+        'examples': [{'word': 'suffer','explanation': 'v. 受苦'},{'word': 'supplant','explanation': 'v. 排挤，取代'}]
+    },
+    {
+        'name': 'supra-',
+        'explanation': 'over, above',
+        'examples': [{'word': 'supra-class','explanation': 'a. 超阶级的'},{'word': 'supranational','explanation': 'a. 超国家的'}]
+    },
+    {
+        'name': 'sur-',
+        'explanation': 'above, over',
+        'examples': [{'word': 'surface','explanation': 'n. 表面'},{'word': 'surpass','explanation': 'v. 超过'}]
+    },
+    {
+        'name': 'super-',
+        'explanation': 'over; above',
+        'examples': [{'word': 'supersonic','explanation': 'a. 超音速的'},{'word': 'supernatural','explanation': 'a. 超自然的'},{'word': 'superstructure','explanation': 'n. 上层建筑'},{'word': 'superimpose','explanation': 'v. 强加'}]
+    },
+    {
+        'name': 'sus-',
+        'explanation': 'under',
+        'examples': [{'word': 'sustain','explanation': 'v. 支撑，承受'},{'word': 'suspend','explanation': 'v. 悬挂，中止'}]
+    },
+    {
+        'name': 'sym-, syn-',
+        'explanation': 'with, together',
+        'examples': [{'word': 'sympathy','explanation': 'n. 同情'},{'word': 'symphony','explanation': 'n. 交响乐'}]
+    },
+    {
+        'name': 'tetra-',
+        'explanation': 'four',
+        'examples': [{'word': 'tetragon','explanation': 'n. 四角形'}]
+    },
+    {
+        'name': 'trans-',
+        'explanation': 'across; beyond',
+        'examples': [{'word': 'transparent','explanation': 'a. 透明的'},{'word': 'transmit','explanation': 'v. 传播，传送'},{'word': 'transform','explanation': 'v. 变形'},{'word': 'transplant','explanation': 'v. 移植'}]
+    },
+    {
+        'name': 'tri-',
+        'explanation': 'three',
+        'examples': [{'word': 'triangle','explanation': 'n. 三角形'}]
+    },
+    {
+        'name': 'twi-',
+        'explanation': 'two',
+        'examples': [{'word': 'twilight','explanation': 'n. 黎明，黄昏'},{'word': 'twofold','explanation': 'n. 两倍'}]
+    },
+    {
+        'name': 'ultra-',
+        'explanation': 'extreme; beyond',
+        'examples': [{'word': 'ultramilitant','explanation': 'a. 极端好战的'},{'word': 'ultraclean','explanation': 'a. 极洁净的'},{'word': 'ultrasonic','explanation': 'a. 超音速的'},{'word': 'ultramodern','explanation': 'a. 超现代化'}]
+    },
+    {
+        'name': 'un-',
+        'explanation': 'no; up',
+        'examples': [{'word': 'unreal','explanation': 'a. 不真实的'},{'word': 'unequal','explanation': 'a. 不平等的'},{'word': 'unlock','explanation': 'v. 开锁'},{'word': 'unbind','explanation': 'v. 解开'}]
+    },
+    {
+        'name': 'under-',
+        'explanation': 'under; not enough; beneath',
+        'examples': [{'word': 'underground','explanation': 'a. 地下的'},{'word': 'underline','explanation': 'v. 划线于'},{'word': 'underestimate','explanation': 'v. 估计不足'},{'word': 'underdeveloped','explanation': 'a. 不发达的'},{'word': 'underagent','explanation': 'n. 副代理人'},{'word': 'underofficer','explanation': 'n. 下级官员'}]
+    },
+    {
+        'name': 'uni-',
+        'explanation': 'one',
+        'examples': [{'word': 'uniform','explanation': 'a. 一贯的，一致的'},{'word': 'unique','explanation': 'a. 独一无二的'}]
+    },
+    {
+        'name': 'vice-',
+        'explanation': 'in place of',
+        'examples': [{'word': 'vice-president','explanation': 'n. 副总统'}]
+    },
+    {
+        'name': 'with-',
+        'explanation': 'against',
+        'examples': [{'word': 'withdraw','explanation': 'v. 撤消，撤退'},{'word': 'withhold','explanation': 'v. 阻止'}]
+    },
+    {
+        'name': '-ability',
+        'explanation': '能，性',
+        'examples': [{'word': 'useability','explanation': 'n. 可用性'},{'word': 'adaptability','explanation': 'n. 适应能力'}]
+    },
+    {
+        'name': '-able',
+        'explanation': '可…的，能',
+        'examples': [{'word': 'knowable','explanation': 'a. 可知的'},{'word': 'desirable','explanation': 'a. 值得要的'}]
+    },
+    {
+        'name': '-ably',
+        'explanation': '能…地',
+        'examples': [{'word': 'suitably','explanation': 'ad. 恰当地'},{'word': 'lovably','explanation': 'ad. 可爱地'}]
+    },
+    {
+        'name': '-aceous',
+        'explanation': '具有特征的',
+        'examples': [{'word': 'herbaceous','explanation': 'a. 草本植物的'},{'word': 'papyraceous','explanation': 'a. 似纸的'}]
+    },
+    {
+        'name': '-acious',
+        'explanation': '有特征的',
+        'examples': [{'word': 'capacious','explanation': 'a. 宽敞的'},{'word': 'veracious','explanation': 'a. 真实的'}]
+    },
+    {
+        'name': '-acity',
+        'explanation': '有…倾向',
+        'examples': [{'word': 'capacity','explanation': 'n. 容量，能力'},{'word': 'veracity','explanation': 'n. 真实'}]
+    },
+    {
+        'name': '-acle',
+        'explanation': '…物品，状态',
+        'examples': [{'word': 'miracle','explanation': 'n. 奇迹'},{'word': 'obstacle','explanation': 'n. 障碍'}]
+    },
+    {
+        'name': '-acy',
+        'explanation': '性质，状态',
+        'examples': [{'word': 'fallacy','explanation': 'n. 错误'},{'word': 'intimacy','explanation': 'n. 亲密'}]
+    },
+    {
+        'name': '-ad',
+        'explanation': '状态，…东西',
+        'examples': [{'word': 'ballad','explanation': 'n. 歌谣，歌曲'},{'word': 'nomad','explanation': 'n. 流浪者，游牧人'}]
+    },
+    {
+        'name': '-ade',
+        'explanation': '状态，物品；个人或集体',
+        'examples': [{'word': 'blockade','explanation': 'n. 封锁'},{'word': 'decade','explanation': 'n. 十年'},{'word': 'brigade','explanation': 'n. 旅，队'},{'word': 'crusade','explanation': 'n. 十字军'}]
+    },
+    {
+        'name': '-age',
+        'explanation': '状态，总称；场所，物品；费用',
+        'examples': [{'word': 'percentage','explanation': 'n. 百分比'},{'word': 'advantage','explanation': 'n. 利益'},{'word': 'village','explanation': 'n. 村庄'},{'word': 'collage','explanation': 'n. 拼图'},{'word': 'postage','explanation': 'n. 邮费'},{'word': 'waterage','explanation': 'n. 水运费'}]
+    },
+    {
+        'name': '-ain',
+        'explanation': '人',
+        'examples': [{'word': 'captain','explanation': 'n. 船长'},{'word': 'chieftain','explanation': 'n. 酋长，头目'}]
+    },
+    {
+        'name': '-aire',
+        'explanation': '人',
+        'examples': [{'word': 'millionaire','explanation': 'n. 百万富翁'},{'word': 'occupationaire','explanation': 'n.占领者'}]
+    },
+    {
+        'name': '-al',
+        'explanation': '…的；人，物，状态',
+        'examples': [{'word': 'personal','explanation': 'a. 个人的'},{'word': 'regional','explanation': 'a. 地区性的'},{'word': 'criminal','explanation': 'n. 犯罪分子'},{'word': 'hospital','explanation': 'n. 医院'}]
+    },
+    {
+        'name': '-ality',
+        'explanation': '状态，性质',
+        'examples': [{'word': 'personality','explanation': 'n. 人格，个性'},{'word': 'nationality','explanation': 'n. 国籍'}]
+    },
+    {
+        'name': '-ally',
+        'explanation': '…地',
+        'examples': [{'word': 'systematically','explanation': 'ad. 有系统地'},{'word': 'exceptionally','explanation': 'ad. 例外'}]
+    },
+    {
+        'name': '-an',
+        'explanation': '…地方，…样人',
+        'examples': [{'word': 'American','explanation': 'a./n. 美洲的，美洲人'},{'word': 'republican','explanation': 'a./n. 共和国的'}]
+    },
+    {
+        'name': '-ance',
+        'explanation': '性质，状况',
+        'examples': [{'word': 'disturbance','explanation': 'n. 扰乱'},{'word': 'resemblance','explanation': 'n. 想像'}]
+    },
+    {
+        'name': '-ancy',
+        'explanation': '性质，状况',
+        'examples': [{'word': 'redundancy','explanation': 'n. 过剩'},{'word': 'vacancy','explanation': 'n. 空白，空缺'}]
+    },
+    {
+        'name': '-aneity',
+        'explanation': '性质，状态',
+        'examples': [{'word': 'instantaneity','explanation': 'n. 立刻'},{'word': 'simultaneity','explanation': 'n. 同时发生'},{'word': 'simultaneous','explanation': 'a. 同时发生的'},{'word': 'subterraneous','explanation': 'a. 地下的'}]
+    },
+    {
+        'name': '-aneous',
+        'explanation': '有特征的',
+        'examples': [{'word': 'simultaneous','explanation': 'a. 同时发生的'},{'word': 'subterraneous','explanation': 'a. 地下的'}]
+    },
+    {
+        'name': '-ant',
+        'explanation': '…的；…人；…剂',
+        'examples': [{'word': 'discordant','explanation': 'a. 不一致的'},{'word': 'resistant','explanation': 'a. 抵抗的'},{'word': 'assistant','explanation': 'n. 助手'},{'word': 'inhabitant','explanation': 'n. 居民'},{'word': 'disinfectant','explanation': 'n.消毒剂'},{'word': 'stimulant','explanation': 'n. 兴奋剂'}]
+    },
+    {
+        'name': '-ar',
+        'explanation': '…的；人，物',
+        'examples': [{'word': 'linear','explanation': 'a. 线的'},{'word': 'familiar','explanation': 'a. 熟悉的'},{'word': 'liar','explanation': 'n. 说谎者'},{'word': 'beggar','explanation': 'n. 乞丐'}]
+    },
+    {
+        'name': '-ard',
+        'explanation': '不好的人',
+        'examples': [{'word': 'drunkard','explanation': 'n. 醉鬼'},{'word': 'coward','explanation': 'n. 胆小者'}]
+    },
+    {
+        'name': '-arian',
+        'explanation': '…的人',
+        'examples': [{'word': 'humanitarian','explanation': 'n. 人道主义的人'},{'word': 'utilitarian','explanation': 'n.功利主义的人'}]
+    },
+    {
+        'name': '-arium',
+        'explanation': '地点，场所',
+        'examples': [{'word': 'aquarium','explanation': 'n. 水族馆'},{'word': 'oceanarium','explanation': 'n. 海洋水族馆'}]
+    },
+    {
+        'name': '-ary',
+        'explanation': '…的；…人',
+        'examples': [{'word': 'imaginary','explanation': 'a. 想象的'},{'word': 'elementary','explanation': 'a. 基本的'},{'word': 'secretary','explanation': 'n. 秘书'},{'word': 'missionary','explanation': 'n. 传教士'}]
+    },
+    {
+        'name': '-ast',
+        'explanation': '人，物',
+        'examples': [{'word': 'enthusiast','explanation': 'n. 热心者'},{'word': 'encomiast','explanation': 'n. 赞美者'}]
+    },
+    {
+        'name': '-aster',
+        'explanation': '不怎么样的人',
+        'examples': [{'word': 'philosophaster','explanation': 'n. 肤浅哲学家'},{'word': 'medicaster','explanation': 'n. 江湖医生'}]
+    },
+    {
+        'name': '-ate',
+        'explanation': '做，造成；具有…的；人或地位',
+        'examples': [{'word': 'differentiate','explanation': 'v. 区别'},{'word': 'considerate','explanation': 'a. 考虑周到的'},{'word': 'graduate','explanation': 'n. 毕业生'}]
+    },
+    {
+        'name': '-atic',
+        'explanation': '有…性质的',
+        'examples': [{'word': 'fanatic','explanation': 'a. 狂热的'},{'word': 'problematic','explanation': 'a. 有问题的'}]
+    },
+    {
+        'name': '-ation',
+        'explanation': '行为，过程，结果',
+        'examples': [{'word': 'excitation','explanation': 'n. 兴奋'},{'word': 'imagination','explanation': 'n. 想象'}]
+    },
+    {
+        'name': '-ative',
+        'explanation': '有…倾向（性质的）',
+        'examples': [{'word': 'talkative','explanation': 'a. 好说话的'}]
+    },
+    {
+        'name': '-ator',
+        'explanation': '做事的人或物',
+        'examples': [{'word': 'designator','explanation': 'n. 指定者'},{'word': 'generator','explanation': 'n. 发电机'}]
+    },
+    {
+        'name': '-atory',
+        'explanation': '有…性质的；场所，地点',
+        'examples': [{'word': 'obligatory','explanation': 'a. 义务的'},{'word': 'explanatory','explanation': 'a. 解释的'},{'word': 'observatory','explanation': 'n. 天文台'},{'word': 'laboratory','explanation': 'n. 实验室'}]
+    },
+    {
+        'name': '-cy',
+        'explanation': '性质，状态',
+        'examples': [{'word': 'emergency','explanation': 'n. 紧急事件'},{'word': 'bankruptcy','explanation': 'n. 破产'}]
+    },
+    {
+        'name': '-dom',
+        'explanation': '状态或领域',
+        'examples': [{'word': 'freedom','explanation': 'n. 自由'},{'word': 'wisdom','explanation': 'n. 智慧'}]
+    },
+    {
+        'name': '-ee',
+        'explanation': '被动或主动的人',
+        'examples': [{'word': 'employee','explanation': 'n. 雇员'},{'word': 'trainee','explanation': 'n. 受训练者'}]
+    },
+    {
+        'name': '-eer',
+        'explanation': '专门人员',
+        'examples': [{'word': 'mountaineer','explanation': 'n. 登山者'},{'word': 'engineer','explanation': 'n. 工程师'}]
+    },
+    {
+        'name': '-el',
+        'explanation': '人或物',
+        'examples': [{'word': 'parcel','explanation': 'n. 包裹'},{'word': 'novel','explanation': 'n. 小说'},{'word': 'personnel','explanation': 'n. 全体人员'}]
+    },
+    {
+        'name': '-en',
+        'explanation': '变成；由…制成的；人或物',
+        'examples': [{'word': 'shorten','explanation': 'v. 缩短'},{'word': 'darken','explanation': 'v. 变黑'},{'word': 'wooden','explanation': 'a. 木制的'},{'word': 'woolen','explanation': 'a. 羊毛制的'},{'word': 'citizen','explanation': 'n.公民'},{'word': 'warden','explanation': 'n. 看守人'}]
+    },
+    {
+        'name': '-ence, -ency',
+        'explanation': '性质，状态',
+        'examples': [{'word': 'insistence','explanation': 'n. 坚持'},{'word': 'innocence','explanation': 'n. 天真，无罪'},{'word': 'efficiency','explanation': 'n.效率'},{'word': 'persistency','explanation': 'n. 坚持'}]
+    },
+    {
+        'name': '-enne',
+        'explanation': '女性',
+        'examples': [{'word': 'comedienne','explanation': 'n.女喜剧演员'},{'word': 'tragedienne','explanation': 'n. 女悲剧演员'}]
+    },
+    {
+        'name': '-ent',
+        'explanation': '…的；…药剂；…人',
+        'examples': [{'word': 'confident','explanation': 'a.自信的'},{'word': 'insistent','explanation': 'a. 坚持的'},{'word': 'absorbent','explanation': 'n. 吸收剂'},{'word': 'solvent','explanation': 'n. 溶剂'},{'word': 'student','explanation': 'n. 学生'},{'word': 'president','explanation': 'n. 总统'}]
+    },
+    {
+        'name': '-eous',
+        'explanation': '的',
+        'examples': [{'word': 'courteous','explanation': 'a. 有礼貌的'},{'word': 'erroneous','explanation': 'a. 有错误的'}]
+    },
+    {
+        'name': '-er',
+        'explanation': '…人；物品，机器；反复做',
+        'examples': [{'word': 'singer','explanation': 'n.歌唱家'},{'word': 'leader','explanation': 'n. 领袖'},{'word': 'washer','explanation': 'n. 洗刷机'},{'word': 'lighter','explanation': 'n. 打火机'},{'word': 'chatter','explanation': 'v.喋喋不休'},{'word': 'waver','explanation': 'v. 摆动'}]
+    },
+    {
+        'name': '-ern',
+        'explanation': '方向；场所',
+        'examples': [{'word': 'eastern','explanation': 'a. 东方的'},{'word': 'cavern','explanation': 'n. 洞穴'},{'word': 'saltern','explanation': 'n. 盐场'}]
+    },
+    {
+        'name': '-ery',
+        'explanation': '场所，地点；行为，情况',
+        'examples': [{'word': 'nursery','explanation': 'n. 托儿所'},{'word': 'rosery','explanation': 'n. 玫瑰园'},{'word': 'robbery','explanation': 'n. 抢劫'},{'word': 'bravery','explanation': 'n. 勇敢'}]
+    },
+    {
+        'name': '-esque',
+        'explanation': '如…的',
+        'examples': [{'word': 'arabesque','explanation': 'a. 阿拉伯式的'},{'word': 'picturesque','explanation': 'a. 如画的'}]
+    },
+    {
+        'name': '-ess',
+        'explanation': '女性，雌性',
+        'examples': [{'word': 'poetess','explanation': 'n. 女诗人'},{'word': 'mayoress','explanation': 'n. 市长夫人'}]
+    },
+    {
+        'name': '-et, -let',
+        'explanation': '小东西',
+        'examples': [{'word': 'floweret','explanation': 'n. 小花'},{'word': 'lionet','explanation': 'n. 小狮'}]
+    },
+    {
+        'name': '-etic',
+        'explanation': '属于…的',
+        'examples': [{'word': 'theoretic','explanation': 'a. 理论上的'},{'word': 'energetic','explanation': 'a. 精力旺盛的'}]
+    },
+    {
+        'name': '-ette',
+        'explanation': '小的东西或状态',
+        'examples': [{'word': 'novelette','explanation': 'n. 中篇小说'},{'word': 'cigarette','explanation': 'n. 香烟'}]
+    },
+    {
+        'name': '-ety',
+        'explanation': '状态',
+        'examples': [{'word': 'gaiety','explanation': 'n. 快乐'},{'word': 'propriety','explanation': 'n. 适合，得体'}]
+    },
+    {
+        'name': '-eur',
+        'explanation': '…人',
+        'examples': [{'word': 'amateur','explanation': 'n. 业余爱好者'},{'word': 'entrepreneur','explanation': 'n. 企业家'}]
+    },
+    {
+        'name': '-faction',
+        'explanation': '达到的状态',
+        'examples': [{'word': 'satisfaction','explanation': 'n. 满足'},{'word': 'rarefaction','explanation': 'n. 稀薄'}]
+    },
+    {
+        'name': '-fic',
+        'explanation': '产生…的',
+        'examples': [{'word': 'scientific','explanation': 'a. 科学的'},{'word': 'horrific','explanation': 'a. 可怕的'}]
+    },
+    {
+        'name': '-fication',
+        'explanation': '产生…',
+        'examples': [{'word': 'beautification','explanation': 'n. 美化'},{'word': 'glorification','explanation': 'n. 颂扬'}]
+    },
+    {
+        'name': '-fier',
+        'explanation': '人或物',
+        'examples': [{'word': 'glorifier','explanation': 'n. 颂扬者'},{'word': 'liquefier','explanation': 'n. 液化器'}]
+    },
+    {
+        'name': '-fold',
+        'explanation': '倍，双重',
+        'examples': [{'word': 'twofold','explanation': 'ad. 两倍的'},{'word': 'threefold','explanation': 'ad. 三倍的'}]
+    },
+    {
+        'name': '-form',
+        'explanation': '有…形状的',
+        'examples': [{'word': 'dentiform','explanation': 'a. 牙齿状的'},{'word': 'uniform','explanation': 'a. 一致的'}]
+    },
+    {
+        'name': '-ful',
+        'explanation': '有…的；满，量',
+        'examples': [{'word': 'grateful','explanation': 'a. 感激的'},{'word': 'willful','explanation': 'a. 任性的'},{'word': 'handful','explanation': 'n. 一 把'},{'word': 'mouthful','explanation': 'n. 一口'}]
+    },
+    {
+        'name': '-fy',
+        'explanation': '…化，成为…',
+        'examples': [{'word': 'fruitify','explanation': 'v. 结果化'},{'word': 'beautify','explanation': 'v. 美化'}]
+    },
+    {
+        'name': '-hood',
+        'explanation': '时期，性质',
+        'examples': [{'word': 'childhood','explanation': 'n. 童年'}]
+    },
+    {
+        'name': '-ia',
+        'explanation': '某种病；总称， 状态',
+        'examples': [{'word': 'insomnia','explanation': 'n. 失眠症'},{'word': 'euphoria','explanation': 'n. 欣快病'},{'word': 'militia','explanation': 'n. 自卫队'},{'word': 'utopia','explanation': 'n. 乌托邦'}]
+    },
+    {
+        'name': '-ial',
+        'explanation': '有…的',
+        'examples': [{'word': 'beneficial','explanation': 'a. 有好处的'},{'word': 'commercial','explanation': 'a. 商业的'}]
+    },
+    {
+        'name': '-ian',
+        'explanation': '某种人；…国家的',
+        'examples': [{'word': 'historian','explanation': 'n. 历史学家'},{'word': 'comedian','explanation': 'n. 喜剧演员'},{'word': 'Egyptian','explanation': 'a. 埃及的'},{'word': 'Canadian','explanation': 'a. 加拿大'}]
+    },
+    {
+        'name': '-ibility',
+        'explanation': '具备',
+        'examples': [{'word': 'compatibility','explanation': 'n. 和谐共处'},{'word': 'sensibility','explanation': 'n. 敏感性'}]
+    },
+    {
+        'name': '-ible',
+        'explanation': '能…的',
+        'examples': [{'word': 'intelligible','explanation': 'a. 可理解的'},{'word': 'sensible','explanation': 'a. 明智的'}]
+    },
+    {
+        'name': '-ic',
+        'explanation': '…的；人或科学；某种药',
+        'examples': [{'word': 'fanatic','explanation': 'a. 狂热的'},{'word': 'cosmic','explanation': 'a. 宇宙的'},{'word': 'critic','explanation': 'n. 批评家'},{'word': 'logic','explanation': 'n. 逻辑学'},{'word': 'anesthetic','explanation': 'n.麻醉剂'},{'word': 'antibiotic','explanation': 'n.抗生素'}]
+    },
+    {
+        'name': '-ical',
+        'explanation': '…的',
+        'examples': [{'word': 'symmetrical','explanation': 'a.对称的'},{'word': 'geometrical','explanation': 'a.几何学的'}]
+    },
+    {
+        'name': '-ice',
+        'explanation': '行为，状态',
+        'examples': [{'word': 'artifice','explanation': 'n.巧办法，诡计'},{'word': 'armistice','explanation': 'n.休战'}]
+    },
+    {
+        'name': '-ics',
+        'explanation': '学科，学术',
+        'examples': [{'word': 'metaphysics','explanation': 'n. 形而上学'},{'word': 'linguistics','explanation': 'n. 语言学'}]
+    },
+    {
+        'name': '-id',
+        'explanation': '如…的',
+        'examples': [{'word': 'splendid','explanation': 'a.辉煌的'},{'word': 'humid','explanation': 'a. 潮湿的'}]
+    },
+    {
+        'name': '-ie',
+        'explanation': '小东西或人',
+        'examples': [{'word': 'doggie','explanation': 'n. 小狗'},{'word': 'piggie','explanation': 'n.小猪'}]
+    },
+    {
+        'name': '-ier',
+        'explanation': '人或物',
+        'examples': [{'word': 'cashier','explanation': 'n.出纳'},{'word': 'frontier','explanation': 'n.边疆'}]
+    },
+    {
+        'name': '-ile',
+        'explanation': '…的；物体',
+        'examples': [{'word': 'merchantile','explanation': 'a. 商人的'},{'word': 'fertile','explanation': 'a. 肥沃的'},{'word': 'missile','explanation': 'n.发射物，导弹'},{'word': 'automobile','explanation': 'n.汽车'}]
+    },
+    {
+        'name': '-ine',
+        'explanation': '…的；人；状态，药物',
+        'examples': [{'word': 'elephantine','explanation': 'a. 如象的，巨大的'},{'word': 'marine','explanation': 'a. 海的'},{'word': 'figurine','explanation': 'n. 小雕像'},{'word': 'heroine','explanation': 'n. 女英雄'},{'word': 'famine','explanation': 'n. 饥荒'},{'word': 'routine','explanation': 'n. 常规'}]
+    },
+    {
+        'name': '-ing',
+        'explanation': '状态；物品；行业；正…的',
+        'examples': [{'word': 'feeling','explanation': 'n.感情'},{'word': 'ageing','explanation': 'n. 老化'},{'word': 'clothing','explanation': 'n.衣服'},{'word': 'banking','explanation': 'n.银行业'},{'word': 'encouraging','explanation': 'a.鼓舞人心的'},{'word': 'changing','explanation': 'a.正在变化的'}]
+    },
+    {
+        'name': '-ion, -sion, -tion',
+        'explanation': '动作的状态；某种物，用品',
+        'examples': [{'word': 'obligation','explanation': 'n. 责任'},{'word': 'inflation','explanation': 'n. 通货膨胀'},{'word': 'cushion','explanation': 'n.靠垫'},{'word': 'mansion','explanation': 'n.大厦'}]
+    },
+    {
+        'name': '-ior',
+        'explanation': '较…的',
+        'examples': [{'word': 'interior','explanation': 'a.内部的'},{'word': 'superior','explanation': 'a.在上面的，超越的'}]
+    },
+    {
+        'name': '-ious',
+        'explanation': '…的',
+        'examples': [{'word': 'curious','explanation': 'a.好奇的'},{'word': 'spacious','explanation': 'a.宽敞的'}]
+    },
+    {
+        'name': '-ise',
+        'explanation': '…化 (-ize)；物品，状态',
+        'examples': [{'word': 'criticise','explanation': 'v.批评'},{'word': 'advertise','explanation': 'v.做广告'},{'word': 'surmise','explanation': 'n.猜测'},{'word': 'exercise','explanation': 'n.练习，锻炼'}]
+    },
+    {
+        'name': '-ish',
+        'explanation': '象…一样；造成；国家，语言',
+        'examples': [{'word': 'childish','explanation': 'a.孩子气的'},{'word': 'bookish','explanation': 'a. 书生气的'},{'word': 'polish','explanation': 'v擦亮'},{'word': 'flourish','explanation': 'v.繁荣'},{'word': 'English','explanation': 'a./n.英国（的）'},{'word': 'Irish','explanation': 'a./n. 爱尔兰的（语）'}]
+    },
+    {
+        'name': '-ism',
+        'explanation': '主义；流派；状态；疾病；性质',
+        'examples': [{'word': 'idealism','explanation': 'n.唯心主义'},{'word': 'impressionism','explanation': 'n. 印象派'},{'word': 'escapism','explanation': 'n.逃避现实'},{'word': 'albinism','explanation': 'n.白化病'},{'word': 'brutalism','explanation': 'n.兽性'}]
+    },
+    {
+        'name': '-ist',
+        'explanation': '信仰者，专家',
+        'examples': [{'word': 'nationalist','explanation': 'n. 民族主义者'},{'word': 'materialist','explanation': 'n.物质主义者'}]
+    },
+    {
+        'name': '-istic',
+        'explanation': '…的',
+        'examples': [{'word': 'simplistic','explanation': 'a.过分简单的'},{'word': 'artistic','explanation': 'a.艺术的'}]
+    },
+    {
+        'name': '-it',
+        'explanation': '抽象名词；…人',
+        'examples': [{'word': 'spirit','explanation': 'n.精神'},{'word': 'credit','explanation': 'n.相信'},{'word': 'hermit','explanation': 'n.隐士'},{'word': 'bandit','explanation': 'n. 匪徒'}]
+    },
+    {
+        'name': '-ite',
+        'explanation': '有…的；人或物',
+        'examples': [{'word': 'polite','explanation': 'a. 礼貌的'},{'word': 'definite','explanation': 'a. 明确的'},{'word': 'favorite','explanation': 'n. 喜爱的人或物'},{'word': 'elite','explanation': 'n. 社会精英'},{'word': 'ignite','explanation': 'v. 点燃'},{'word': 'unite','explanation': 'v.联合'}]
+    },
+    {
+        'name': '-ition',
+        'explanation': '行为过程，状态',
+        'examples': [{'word': 'definition','explanation': 'n.定义'},{'word': 'repetition','explanation': 'n.重复'}]
+    },
+    {
+        'name': '-itious',
+        'explanation': '…的',
+        'examples': [{'word': 'expeditious','explanation': 'a.快速的'},{'word': 'nutritious','explanation': 'a. 有营养的'}]
+    },
+    {
+        'name': '-itive',
+        'explanation': '…的',
+        'examples': [{'word': 'compositive','explanation': 'a.合成的'},{'word': 'competitive','explanation': 'a.比赛的'}]
+    },
+    {
+        'name': '-itor',
+        'explanation': '人',
+        'examples': [{'word': 'competitor','explanation': 'n.比赛者'},{'word': 'expositor','explanation': 'n.讲解者'}]
+    },
+    {
+        'name': '-itude',
+        'explanation': '性质，状态等',
+        'examples': [{'word': 'attitude','explanation': 'n. 态度'},{'word': 'solitude','explanation': 'n. 孤独'}]
+    },
+    {
+        'name': '-ity',
+        'explanation': '具备某种性质',
+        'examples': [{'word': 'complexity','explanation': 'n. 复杂性'},{'word': 'equality','explanation': 'n. 平等'}]
+    },
+    {
+        'name': '-ive',
+        'explanation': '…的；人或物',
+        'examples': [{'word': 'impassive','explanation': 'a.无动于衷的'},{'word': 'affirmative','explanation': 'a.赞同的'},{'word': 'detective','explanation': 'n.侦探'},{'word': 'fugitive','explanation': 'n.逃亡'}]
+    },
+    {
+        'name': '-ivity',
+        'explanation': '有能力或特性',
+        'examples': [{'word': 'productivity','explanation': 'n.生产力'},{'word': 'activity','explanation': 'n.活动'}]
+    },
+    {
+        'name': '-ization',
+        'explanation': '变为…',
+        'examples': [{'word': 'modernization','explanation': 'n. 现代化'},{'word': 'industrialization','explanation': 'n. 工业化'}]
+    },
+    {
+        'name': '-kin',
+        'explanation': '小',
+        'examples': [{'word': 'manikin','explanation': 'n.侏儒'},{'word': 'ladykin','explanation': 'n. 小妇人'}]
+    },
+    {
+        'name': '-less',
+        'explanation': '无…的，不…的',
+        'examples': [{'word': 'nerveless','explanation': 'a. 无勇气的'},{'word': 'effortless','explanation': 'a. 不费力的'}]
+    },
+    {
+        'name': '-like',
+        'explanation': '像…一样',
+        'examples': [{'word': 'dreamlike','explanation': 'a. 如梦般的'},{'word': 'womanlike','explanation': 'a. 女人气的'}]
+    },
+    {
+        'name': '-ling',
+        'explanation': '小东西或某种人',
+        'examples': [{'word': 'birdling','explanation': 'n. 小鸟'},{'word': 'weakling','explanation': 'n. 体弱的人'}]
+    },
+    {
+        'name': '-ly',
+        'explanation': '表形容词；表副词',
+        'examples': [{'word': 'timely','explanation': 'a. 及时的'},{'word': 'lively','explanation': 'a. 活跃的'},{'word': 'extremely','explanation': 'ad. 过分地'},{'word': 'greatly','explanation': 'ad. 很大地'}]
+    },
+    {
+        'name': '-ment',
+        'explanation': '行为或结果；具体物',
+        'examples': [{'word': 'movement','explanation': 'n.运动'},{'word': 'agreement','explanation': 'n. 协议'},{'word': 'pavement','explanation': 'n.人行道'},{'word': 'equipment','explanation': 'n. 设备'}]
+    },
+    {
+        'name': '-most',
+        'explanation': '最…的',
+        'examples': [{'word': 'outmost','explanation': 'a.最外面的'},{'word': 'easternmost','explanation': 'a.最东的'}]
+    },
+    {
+        'name': '-o',
+        'explanation': '人、物或状态；音乐术语',
+        'examples': [{'word': 'virtuoso','explanation': 'n. 艺术大师'},{'word': 'magnifico','explanation': 'n. 高官，贵人'},{'word': 'tango','explanation': 'n. 探戈舞'},{'word': 'piano','explanation': 'n. 钢琴'}]
+    },
+    {
+        'name': '-on',
+        'explanation': '人或物理上的名词',
+        'examples': [{'word': 'patron','explanation': 'n. 赞助人'},{'word': 'neutron','explanation': 'n. 中子'}]
+    },
+    {
+        'name': '-oon',
+        'explanation': '人或物',
+        'examples': [{'word': 'tycoon','explanation': 'n. 大亨'},{'word': 'balloon','explanation': 'n. 气球'}]
+    },
+    {
+        'name': '-or',
+        'explanation': '人或物器',
+        'examples': [{'word': 'detector','explanation': 'n. 探测器'},{'word': 'compressor','explanation': 'n. 压缩机'}]
+    },
+    {
+        'name': '-ory',
+        'explanation': '…的；场所',
+        'examples': [{'word': 'advisory','explanation': 'a. 劝告的'},{'word': 'compulsory','explanation': 'a. 强制性的'},{'word': 'factory','explanation': 'n. 工厂'},{'word': 'armory','explanation': 'n. 军械库'}]
+    },
+    {
+        'name': '-osity',
+        'explanation': '多的状态',
+        'examples': [{'word': 'curiosity','explanation': 'n. 好奇心'},{'word': 'generosity','explanation': 'n. 慷慨'}]
+    },
+    {
+        'name': '-ose',
+        'explanation': '多的',
+        'examples': [{'word': 'bellicose','explanation': 'a. 好战的'},{'word': 'jocose','explanation': 'a. 好开玩笑的'}]
+    },
+    {
+        'name': '-ot',
+        'explanation': '…人',
+        'examples': [{'word': 'zealot','explanation': 'n.热心者'},{'word': 'patriot','explanation': 'n. 爱国者'}]
+    },
+    {
+        'name': '-ous',
+        'explanation': '…的',
+        'examples': [{'word': 'dangerous','explanation': 'a.危险的'},{'word': 'mountainous','explanation': 'a. 多山的'}]
+    },
+    {
+        'name': '-ress',
+        'explanation': '女性；物品',
+        'examples': [{'word': 'waitress','explanation': 'n. 女服务员'},{'word': 'actress','explanation': 'n. 女演员'},{'word': 'fortress','explanation': 'n. 堡垒'},{'word': 'mattress','explanation': 'n. 床垫'}]
+    },
+    {
+        'name': '-ry',
+        'explanation': '状态；学科；集合；场地',
+        'examples': [{'word': 'rivalry','explanation': 'n. 竞争，敌对'},{'word': 'chemistry','explanation': 'n.化学'},{'word': 'poetry','explanation': 'n.诗歌'},{'word': 'citizenry','explanation': 'n. 公民'},{'word': 'laundry','explanation': 'n. 洗衣房'},{'word': 'ferry','explanation': 'n. 渡口'}]
+    },
+    {
+        'name': '-ship',
+        'explanation': '状态；技能',
+        'examples': [{'word': 'friendship','explanation': 'n. 友谊'},{'word': 'hardship','explanation': 'n. 苦难'},{'word': 'airmanship','explanation': 'n. 飞行技术'},{'word': 'salesmanship','explanation': 'n. 推销术'}]
+    },
+    {
+        'name': '-some',
+        'explanation': '充满…的，具有…倾向的',
+        'examples': [{'word': 'quarrelsome','explanation': 'a. 好争吵的'},{'word': 'lonesome','explanation': 'a. 孤独的'}]
+    },
+    {
+        'name': '-ster',
+        'explanation': '…人',
+        'examples': [{'word': 'pollster','explanation': 'n. 民意测验家'},{'word': 'songster','explanation': 'n. 歌唱家'}]
+    },
+    {
+        'name': '-th',
+        'explanation': '抽象名词',
+        'examples': [{'word': 'warmth','explanation': 'n. 温暖'},{'word': 'growth','explanation': 'n. 成长'}]
+    },
+    {
+        'name': '-tic',
+        'explanation': '与…相关的',
+        'examples': [{'word': 'romantic','explanation': 'a. 浪漫的'},{'word': 'dramatic','explanation': 'a. 戏剧性的'}]
+    },
+    {
+        'name': '-ture',
+        'explanation': '一般状态，行为',
+        'examples': [{'word': 'miniature','explanation': 'n.小画像'},{'word': 'legislature','explanation': 'n.立法机关'}]
+    },
+    {
+        'name': '-ty',
+        'explanation': '名词后缀',
+        'examples': [{'word': 'safety','explanation': 'n. 安全'},{'word': 'certainty','explanation': 'n. 肯定'}]
+    },
+    {
+        'name': '-ular',
+        'explanation': '有…形状或性质的',
+        'examples': [{'word': 'globular','explanation': 'a. 球形的'},{'word': 'spectacular','explanation': 'a. 壮观的'}]
+    },
+    {
+        'name': '-ule',
+        'explanation': '小',
+        'examples': [{'word': 'granule','explanation': 'n. 微粒'},{'word': 'globule','explanation': 'n. 小球体'}]
+    },
+    {
+        'name': '-uous',
+        'explanation': '多…的',
+        'examples': [{'word': 'innocuous','explanation': 'a. 无害的'},{'word': 'assiduous','explanation': 'a. 勤勉的'}]
+    },
+    {
+        'name': '-ward',
+        'explanation': '向',
+        'examples': [{'word': 'downward','explanation': 'a./ad. 向下的'},{'word': 'upward','explanation': 'a./ad. 向上的'}]
+    },
+    {
+        'name': '-wise',
+        'explanation': '方向，状态',
+        'examples': [{'word': 'crosswise','explanation': 'ad. 交叉地'},{'word': 'coastwise','explanation': 'ad. 沿海地'}]
+    },
+    {
+        'name': '-y',
+        'explanation': '形容词；名词；人或小东西',
+        'examples': [{'word': 'rainy','explanation': 'a. 下雨的'},{'word': 'homey','explanation': 'a. 象家一样的'},{'word': 'difficulty','explanation': 'n. 困难'},{'word': 'discovery','explanation': 'n. 发现'},{'word': 'fatty','explanation': 'n. 胖子'},{'word': 'shorty','explanation': 'n. 矮子'}]
+    }
+];
