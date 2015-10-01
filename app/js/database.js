@@ -1427,7 +1427,7 @@ morphemes = [{
 },
 {
     'name': 'mis, miso',
-    'explanation': 'hate',
+    'explanation': 'to hate',
     'examples': [{'word': 'misanthropist','explanation': 'n. 厌世者'},{'word': 'misogamist','explanation': 'n. 厌恶结婚者'}]
 },
 {
@@ -2761,7 +2761,7 @@ morphemes = [{
         'examples': [{'word': 'abnormal','explanation': 'a. 反常的'},{'word': 'abuse','explanation': 'v. 滥用'}]
     },
     {
-        'name': 'aX-',
+        'name': 'ac, ad, af, ag, an, ap, ar, as, at-',
         'explanation': 'to; at; for',
         'examples': [{'word': 'accompany','explanation': 'v.陪伴'},{'word': 'accustom','explanation': 'v.使习惯'}]
     },
