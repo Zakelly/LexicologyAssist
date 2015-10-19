@@ -1,5 +1,5 @@
-﻿morphemesIndex = [{"name":"词根-A","start":0,"end":36},{"name":"词根-B","start":36,"end":54},{"name":"词根-C","start":54,"end":111},{"name":"词根-D","start":111,"end":131},{"name":"词根-E","start":131,"end":146},{"name":"词根-F","start":146,"end":181},{"name":"词根-G","start":181,"end":198},{"name":"词根-H","start":198,"end":214},{"name":"词根-I","start":214,"end":224},{"name":"词根-J","start":224,"end":231},{"name":"词根-L","start":231,"end":264},{"name":"词根-M","start":264,"end":300},{"name":"词根-N","start":300,"end":320},{"name":"词根-O","start":320,"end":335},{"name":"词根-P","start":335,"end":394},{"name":"词根-Q","start":394,"end":399},{"name":"词根-R","start":399,"end":416},{"name":"词根-S","start":416,"end":471},{"name":"词根-T","start":471,"end":509},{"name":"词根-U","start":509,"end":516},{"name":"词根-V","start":516,"end":547},{"name":"词根-W","start":547,"end":548},{"name":"词根-Z","start":548,"end":550},
-    {"name":"前缀","start":550,"end":661},{"name":"后缀","start":661,"end":790}];
+﻿morphemesIndex = [{"name":"词根-A","start":0,"end":36},{"name":"词根-B","start":36,"end":54},{"name":"词根-C","start":54,"end":111},{"name":"词根-D","start":111,"end":131},{"name":"词根-E","start":131,"end":146},{"name":"词根-F","start":146,"end":181},{"name":"词根-G","start":181,"end":198},{"name":"词根-H","start":198,"end":214},{"name":"词根-I","start":214,"end":224},{"name":"词根-J","start":224,"end":231},{"name":"词根-L","start":231,"end":264},{"name":"词根-M","start":264,"end":300},{"name":"词根-N","start":300,"end":320},{"name":"词根-O","start":320,"end":335},{"name":"词根-P","start":335,"end":394},{"name":"词根-Q","start":394,"end":399},{"name":"词根-R","start":399,"end":416},{"name":"词根-S","start":416,"end":470},{"name":"词根-T","start":470,"end":508},{"name":"词根-U","start":508,"end":515},{"name":"词根-V","start":515,"end":546},{"name":"词根-W","start":546,"end":547},{"name":"词根-Z","start":547,"end":549},
+    {"name":"前缀","start":549,"end":660},{"name":"后缀","start":660,"end":789}];
 morphemes = [{
     'name': 'acid, acri, acr, acu',
     'explanation': 'sour; sharp',
@@ -2296,7 +2296,7 @@ morphemes = [{
     'examples': [{'word': 'stellar','explanation': 'a. 星的'},{'word': 'interstellar','explanation': 'a. 星际的'}]
 },
 {
-    'name': 'stigma',
+    'name': 'stigm',
     'explanation': 'mark',
     'examples': [{'word': 'stigma','explanation': 'n. 污名'},{'word': 'stigmata','explanation': 'n. 皮肤上的红斑，特征'},{'word': 'stigmatize','explanation': 'v. 污蔑'}]
 },
@@ -2304,11 +2304,6 @@ morphemes = [{
     'name': 'still',
     'explanation': 'small drop',
     'examples': [{'word': 'distill','explanation': 'v. 蒸馏'},{'word': 'instill','explanation': 'v. 滴注'}]
-},
-{
-    'name': 'stitut, stit',
-    'explanation': 'to set up; to place',
-    'examples': [{'word': 'constitute','explanation': 'v. 构成，制定'},{'word': 'substitute','explanation': 'v. 调换，代替'}]
 },
 {
     'name': 'sting, stinct, stimul',
