@@ -1,20 +1,25 @@
 ﻿var workingList = [];
 var reviewList = [];
 var lastIsReviewing = false;
+var version = 2;
+var lastVersion = 1;
 
 function saveStorage() {
     localStorage.setItem("workingList",workingList);
     localStorage.setItem("reviewList",reviewList);
     localStorage.setItem("lastIsReviewing",(lastIsReviewing)?1:0);
+    localStorage.setItem("lastVersion",version);
     setCookie("workingList",workingList);
     setCookie("reviewList",reviewList);
     setCookie("lastIsReviewing",(lastIsReviewing)?1:0);
+    setCookie("lastVersion",version);
 }
 
 function getStorage() {
     workingList = localStorage.getItem("workingList");
     reviewList = localStorage.getItem("reviewList");
     lastIsReviewing = localStorage.getItem("lastIsReviewing");
+    lastVersion = localStorage.getItem("lastVersion");
 
     if (!workingList || workingList == "")
         workingList = getCookie("workingList");
@@ -41,6 +46,23 @@ function getStorage() {
     else
         lastIsReviewing = Number(lastIsReviewing);
     lastIsReviewing = (lastIsReviewing == 1);
+
+    if (lastVersion == null || lastVersion == "") {
+        lastVersion = getCookie("lastVersion");
+    }
+    if (lastVersion == "null")
+        lastVersion = 1;
+    else
+        lastVersion = Number(lastVersion);
+
+    if (lastVersion != version) {
+        try {
+            migration();
+            lastVersion = version;
+            saveStorage();
+        }
+        catch(e) {}
+    }
 }
 
 

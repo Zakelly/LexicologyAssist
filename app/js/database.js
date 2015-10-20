@@ -2136,11 +2136,6 @@ morphemes = [{
     'examples': [{'word': 'scribble','explanation': 'v. 乱写，涂鸦'},{'word': 'script','explanation': 'n. 原本，脚本'}]
 },
 {
-    'name': 'secu, sequ',
-    'explanation': 'to follow',
-    'examples': [{'word': 'sequence','explanation': 'n. 连续'},{'word': 'subsequent','explanation': 'a. 随后发生的'}]
-},
-{
     'name': 'sect, seg',
     'explanation': 'to cut; to divide',
     'examples': [{'word': 'segment','explanation': 'n. 断片，分节，部分'},{'word': 'section','explanation': 'n. 切开，部门'},{'word': 'bisect','explanation': 'v. 两分'}]
