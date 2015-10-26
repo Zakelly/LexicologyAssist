@@ -15,9 +15,24 @@ function migration_2() {
             workingList[i] --;
     }
     for(var i = 0 ; i < reviewList.length ; i++) {
-        if (workingList[i] == 427)
-            workingList[i] = 428;
-        else if (workingList[i] > 427)
-            workingList[i] --;
+        if (reviewList[i] == 427)
+            reviewList[i] = 428;
+        else if (reviewList[i] > 427)
+            reviewList[i] --;
+    }
+}
+
+function migration_3() {
+    for(var i = 0 ; i < workingList.length ; i++) {
+        if (workingList[i] == 647) {
+            workingList.splice(i, i);
+            i--;
+        }
+    }
+    for(var i = 0 ; i < reviewList.length ; i++) {
+        if (reviewList[i] == 647) {
+            reviewList.splice(i, i);
+            i--;
+        }
     }
 }

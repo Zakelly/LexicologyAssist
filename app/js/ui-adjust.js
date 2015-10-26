@@ -15,7 +15,7 @@ function adjustButtons() {
     var logo = $('#logo');
     var buttons = $('#start-buttons');
     if (logo && buttons) {
-        if (logo.offset().top + logo.height() + buttons.height() + 50 > $(window).height()) {
+        if (logo.offsetHeight + logo.height() + buttons.height() + 50 > $(window).height()) {
             buttons.removeClass('start-buttons-absolute');
         }
         else {

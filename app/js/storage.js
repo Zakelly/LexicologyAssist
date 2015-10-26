@@ -1,7 +1,7 @@
 ﻿var workingList = [];
 var reviewList = [];
 var lastIsReviewing = false;
-var version = 2;
+var version = 3;
 var lastVersion = 1;
 
 function saveStorage() {

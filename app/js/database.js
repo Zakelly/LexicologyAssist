@@ -1,5 +1,5 @@
 ﻿morphemesIndex = [{"name":"词根-A","start":0,"end":36},{"name":"词根-B","start":36,"end":54},{"name":"词根-C","start":54,"end":111},{"name":"词根-D","start":111,"end":131},{"name":"词根-E","start":131,"end":146},{"name":"词根-F","start":146,"end":181},{"name":"词根-G","start":181,"end":198},{"name":"词根-H","start":198,"end":214},{"name":"词根-I","start":214,"end":224},{"name":"词根-J","start":224,"end":231},{"name":"词根-L","start":231,"end":264},{"name":"词根-M","start":264,"end":300},{"name":"词根-N","start":300,"end":320},{"name":"词根-O","start":320,"end":335},{"name":"词根-P","start":335,"end":394},{"name":"词根-Q","start":394,"end":399},{"name":"词根-R","start":399,"end":416},{"name":"词根-S","start":416,"end":470},{"name":"词根-T","start":470,"end":508},{"name":"词根-U","start":508,"end":515},{"name":"词根-V","start":515,"end":546},{"name":"词根-W","start":546,"end":547},{"name":"词根-Z","start":547,"end":549},
-    {"name":"前缀","start":549,"end":660},{"name":"后缀","start":660,"end":789}];
+    {"name":"前缀","start":549,"end":659},{"name":"后缀","start":659,"end":788}];
 morphemes = [{
     'name': 'acid, acri, acr, acu',
     'explanation': 'sour; sharp',
@@ -2741,557 +2741,552 @@ morphemes = [{
     'examples': [{'word': 'zoology','explanation': 'n. 动物学'}]
 },
     {
-        'name': 'a-',
+        'name': 'a',
         'explanation': 'not; on; intensive',
         'examples': [{'word': 'acentric','explanation': 'a. 无中心的'},{'word': 'amoral','explanation': 'a. 非道德的'},{'word': 'ahead','explanation': 'adv. 在前面'},{'word': 'aside','explanation': 'ad. 在边上'},{'word': 'abide','explanation': 'a. 遵守'}]
     },
     {
-        'name': 'ab-',
+        'name': 'ab',
         'explanation': 'from; away; off',
         'examples': [{'word': 'abnormal','explanation': 'a. 反常的'},{'word': 'abuse','explanation': 'v. 滥用'}]
     },
     {
-        'name': 'ac, ad, af, ag, an, ap, ar, as, at-',
-        'explanation': 'to; at; for',
+        'name': 'ac, ad, af, ag, an, ap, ar, as, at',
+        'explanation': 'to; at; for / intensive',
         'examples': [{'word': 'accompany','explanation': 'v.陪伴'},{'word': 'accustom','explanation': 'v.使习惯'}]
     },
     {
-        'name': 'ad-',
+        'name': 'ad',
         'explanation': 'do; intensive',
         'examples': [{'word': 'adjust','explanation': 'v. 调整'},{'word': 'adventure','explanation': 'v. 冒险'}]
     },
     {
-        'name': 'amphi-',
+        'name': 'amphi',
         'explanation': 'two',
         'examples': [{'word': 'amphibian','explanation': 'n. 两栖动物'}]
     },
     {
-        'name': 'an-',
+        'name': 'an',
         'explanation': 'not; without',
         'examples': [{'word': 'anarchism','explanation': 'n. 无政府主义'},{'word': 'anharmonic','explanation': 'a. 不和谐的'}]
     },
     {
-        'name': 'ante-',
+        'name': 'ante',
         'explanation': 'before',
         'examples': [{'word': 'antedate','explanation': 'v. 先于，早于'},{'word': 'anteroom','explanation': 'n. 前室'}]
     },
     {
-        'name': 'anti-',
+        'name': 'anti',
         'explanation': 'against; opposite to',
         'examples': [{'word': 'antitank','explanation': 'a.反坦克的'},{'word': 'antiwar','explanation': 'a.反战的'}]
     },
     {
-        'name': 'apo-',
+        'name': 'apo',
         'explanation': 'far from',
         'examples': [{'word': 'apogee','explanation': 'n. 远地点'},{'word': 'apostasy','explanation': 'n. 背叛，脱党'}]
     },
     {
-        'name': 'auto-',
+        'name': 'auto',
         'explanation': 'self',
         'examples': [{'word': 'automatic','explanation': 'a. 自动的'},{'word': 'autograph','explanation': 'n. 亲笔签字'}]
     },
     {
-        'name': 'be-',
+        'name': 'be',
         'explanation': 'to make, intensive; aside',
         'examples': [{'word': 'befool','explanation': 'v. 欺骗'},{'word': 'befall','explanation': 'v. 降临，发生'},{'word': 'beside','explanation': 'prep. 在旁边'},{'word': 'behind','explanation': 'prep. 在后边'}]
     },
     {
-        'name': 'bene-',
+        'name': 'bene',
         'explanation': 'well, good',
         'examples': [{'word': 'benevolent','explanation': 'a. 好意的'},{'word': 'benefit','explanation': 'n. 好处，利益'}]
     },
     {
-        'name': 'bi-',
+        'name': 'bi',
         'explanation': 'double, two',
         'examples': [{'word': 'biweekly','explanation': 'n. 双周的（刊）'},{'word': 'bicolor','explanation': 'a. 双色的'}]
     },
     {
-        'name': 'by-',
+        'name': 'by',
         'explanation': 'secondary; less important',
         'examples': [{'word': 'byproduct','explanation': 'n. 副产品'},{'word': 'byroad','explanation': 'n. 辅路'}]
     },
     {
-        'name': 'cata-',
+        'name': 'cata',
         'explanation': 'down; fully',
         'examples': [{'word': 'cataract','explanation': 'n. 大瀑布，洪流'},{'word': 'category','explanation': 'n. 类，种'}]
     },
     {
-        'name': 'circum-',
+        'name': 'circum',
         'explanation': 'around; round about',
         'examples': [{'word': 'circumference','explanation': 'n. 周长'},{'word': 'circumnavigate','explanation': 'v. 环球航行'}]
     },
     {
-        'name': 'co-',
+        'name': 'co',
         'explanation': 'together, with; wholly',
         'examples': [{'word': 'coeducation','explanation': 'n. 男女同校'},{'word': 'cooperation','explanation': 'n. 合作'}]
     },
     {
-        'name': 'col-, cor-',
+        'name': 'col-, cor',
         'explanation': 'together, with',
         'examples': [{'word': 'collocate','explanation': 'v. 并置，并列'},{'word': 'collapse','explanation': 'v. 倒塌'}]
     },
     {
-        'name': 'com-, con-',
+        'name': 'com-, con',
         'explanation': 'together, with',
         'examples': [{'word': 'combine','explanation': 'v. 结合，联合'},{'word': 'compassion','explanation': 'n. 同情'}]
     },
     {
-        'name': 'contra-',
+        'name': 'contra',
         'explanation': 'against',
         'examples': [{'word': 'contrary','explanation': 'a. 相反的'},{'word': 'contradict','explanation': 'v. 反驳，矛盾'}]
     },
     {
-        'name': 'counter-',
+        'name': 'counter',
         'explanation': 'against',
         'examples': [{'word': 'countercurrent','explanation': 'n. 逆流'},{'word': 'counteract','explanation': 'v. 对抗，抵消'}]
     },
     {
-        'name': 'de-',
+        'name': 'de',
         'explanation': 'down; make, intensive',
         'examples': [{'word': 'destruction','explanation': 'n. 破坏'},{'word': 'detrain','explanation': 'v. 下火车'},{'word': 'delimit','explanation': 'v. 划定界限'},{'word': 'design','explanation': 'v. 设计，计划'}]
     },
     {
-        'name': 'deca-',
+        'name': 'deca',
         'explanation': 'ten',
         'examples': [{'word': 'decagon','explanation': 'n. 十角形'},{'word': 'decameter','explanation': 'n. 十米'}]
     },
     {
-        'name': 'deci-',
+        'name': 'deci',
         'explanation': 'tenth part',
         'examples': [{'word': 'decimeter','explanation': 'n. 十分之一米'},{'word': 'decigram','explanation': 'n. 十分之一克'}]
     },
     {
-        'name': 'demi-',
+        'name': 'demi',
         'explanation': 'half',
         'examples': [{'word': 'demigod','explanation': 'n. 半神半人的'},{'word': 'demilune','explanation': 'n. 半月'}]
     },
     {
-        'name': 'di-',
+        'name': 'di',
         'explanation': 'double; make smaller',
         'examples': [{'word': 'digamist','explanation': 'n. 再婚者'},{'word': 'dioxide','explanation': 'n. 二氧化物'},{'word': 'dilute','explanation': 'v. 冲淡， 稀释'},{'word': 'diminish','explanation': 'v. 减少，消失'}]
     },
     {
-        'name': 'dia-',
+        'name': 'dia',
         'explanation': 'through; between; across',
         'examples': [{'word': 'dialogue','explanation': 'n. 对话'},{'word': 'diagonal','explanation': 'n. 对角线'}]
     },
     {
-        'name': 'dif-',
+        'name': 'dif',
         'explanation': 'not; apart',
         'examples': [{'word': 'differ','explanation': 'v. 不同'},{'word': 'difficult','explanation': 'a. 困难的'}]
     },
     {
-        'name': 'dis-',
+        'name': 'dis',
         'explanation': 'not; apart, away',
         'examples': [{'word': 'dislike','explanation': 'v. 不喜欢'},{'word': 'disorder','explanation': 'n. 无次序'},{'word': 'dispart','explanation': 'v. 分离'},{'word': 'distract','explanation': 'v. 转移，分散'}]
     },
     {
-        'name': 'dys-',
+        'name': 'dys',
         'explanation': 'suffer from; bad',
         'examples': [{'word': 'dysfunction','explanation': 'n. 机能失调'},{'word': 'dysphonia','explanation': 'n. 发音困难'}]
     },
     {
-        'name': 'e-, ef-',
+        'name': 'e-, ef',
         'explanation': 'out of',
         'examples': [{'word': 'emigrate','explanation': 'v. 移居国外'},{'word': 'evade','explanation': 'v. 逃出，逃避'}]
     },
     {
-        'name': 'em-, en-',
+        'name': 'em-, en',
         'explanation': 'in, into, near; to make',
         'examples': [{'word': 'embrace','explanation': 'v. 拥抱'},{'word': 'embed','explanation': 'v. 安置，嵌于'},{'word': 'embitter','explanation': 'v. 使痛苦'},{'word': 'encompass','explanation': 'v. 包围，围绕'}]
     },
     {
-        'name': 'endo-',
+        'name': 'endo',
         'explanation': 'inside',
         'examples': [{'word': 'endogamy','explanation': 'n. 内部通婚'},{'word': 'endotherm','explanation': 'n. 恒温动物'}]
     },
     {
-        'name': 'epi-',
+        'name': 'epi',
         'explanation': 'upon; besides; among',
         'examples': [{'word': 'epidermal','explanation': 'a. 表皮的'},{'word': 'epidemic','explanation': 'a. 流行的'}]
     },
     {
-        'name': 'eu-',
+        'name': 'eu',
         'explanation': 'well',
         'examples': [{'word': 'eulogize','explanation': 'v. 赞美'},{'word': 'eugenics','explanation': 'n. 优生学'}]
     },
     {
-        'name': 'ex-',
+        'name': 'ex',
         'explanation': 'out of; former',
         'examples': [{'word': 'export','explanation': 'v. 出口'},{'word': 'exclude','explanation': 'v. 排外'},{'word': 'ex-wife','explanation': 'n. 前妻'},{'word': 'ex-president','explanation': 'n. 前任总统'}]
     },
     {
-        'name': 'exo-',
+        'name': 'exo',
         'explanation': 'going out; from',
         'examples': [{'word': 'exogamy','explanation': 'n. 外族通婚'},{'word': 'exocentric','explanation': 'a. 外乡的，离心的'}]
     },
     {
-        'name': 'extra-',
+        'name': 'extra',
         'explanation': 'beyond',
         'examples': [{'word': 'extraordinary','explanation': 'a. 格外的'},{'word': 'extrasolar','explanation': 'a. 太阳系以外的'}]
     },
     {
-        'name': 'fore-',
+        'name': 'fore',
         'explanation': 'before',
         'examples': [{'word': 'foresee','explanation': 'v. 预见'},{'word': 'forehead','explanation': 'n. 前额'}]
     },
     {
-        'name': 'hecto-',
+        'name': 'hecto',
         'explanation': 'hundred',
         'examples': [{'word': 'hectogram','explanation': 'n. 一百克'},{'word': 'hectowatt','explanation': 'n. 一百瓦'}]
     },
     {
-        'name': 'hemi-',
+        'name': 'hemi',
         'explanation': 'half',
         'examples': [{'word': 'hemisphere','explanation': 'n. 半球'},{'word': 'hemicycle','explanation': 'n. 半圆形'}]
     },
     {
-        'name': 'hepta-',
+        'name': 'hepta',
         'explanation': 'seven',
         'examples': [{'word': 'heptagon','explanation': 'n. 七角形'},{'word': 'heptaglot','explanation': 'n. 使用七种语言'}]
     },
     {
-        'name': 'hetero-',
+        'name': 'hetero',
         'explanation': 'other, different',
         'examples': [{'word': 'heterosexual','explanation': 'a. 异性的'},{'word': 'heterogeneous','explanation': 'a. 异教的，不同的'}]
     },
     {
-        'name': 'hexa-',
+        'name': 'hexa',
         'explanation': 'six',
         'examples': [{'word': 'hexagon','explanation': 'n. 六角形'},{'word': 'hexachord','explanation': 'n. 六弦琴'}]
     },
     {
-        'name': 'holo-',
+        'name': 'holo',
         'explanation': 'all',
         'examples': [{'word': 'holography','explanation': 'n. 全息摄影'},{'word': 'holocaust','explanation': 'n. 大屠杀，大破坏'}]
     },
     {
-        'name': 'homo-',
+        'name': 'homo',
         'explanation': 'same',
         'examples': [{'word': 'homogeneous','explanation': 'a. 同类的， 同族的'},{'word': 'homocentric','explanation': 'a. 同中心的'}]
     },
     {
-        'name': 'hyper-',
+        'name': 'hyper',
         'explanation': 'above, beyond',
         'examples': [{'word': 'hyperactive','explanation': 'a. 活动过度的'},{'word': 'hypersensitive','explanation': 'a. 过敏的'}]
     },
     {
-        'name': 'hypo-',
+        'name': 'hypo',
         'explanation': 'under',
         'examples': [{'word': 'hypodermic','explanation': 'a. 皮下的'},{'word': 'hypotension','explanation': 'n. 低血压'}]
     },
     {
-        'name': 'il-, ir-',
+        'name': 'il-, ir',
         'explanation': 'not; to make, to enter',
         'examples': [{'word': 'illegal','explanation': 'a. 非法的'},{'word': 'illogical','explanation': 'a. 不合逻辑的'},{'word': 'illustrate','explanation': 'v. 说明，阐明'},{'word': 'irruption','explanation': 'n. 闯入，冲入'}]
     },
     {
-        'name': 'im-, in-',
+        'name': 'im-, in',
         'explanation': 'not; into',
         'examples': [{'word': 'impossible','explanation': 'a. 不可能的'},{'word': 'immoral','explanation': 'a. 不道德的'},{'word': 'import','explanation': 'n. 进口'},{'word': 'imprison','explanation': 'v. 监禁'}]
     },
     {
-        'name': 'inter-',
+        'name': 'inter',
         'explanation': 'between, among',
         'examples': [{'word': 'international','explanation': 'a. 国际的'},{'word': 'interpersonal','explanation': 'a. 人与人之间的'}]
     },
     {
-        'name': 'intra-',
+        'name': 'intra',
         'explanation': 'inward, within',
         'examples': [{'word': 'intraparty','explanation': 'a. 党内的'},{'word': 'intranational','explanation': 'a. 国内的'}]
     },
     {
-        'name': 'intro-',
+        'name': 'intro',
         'explanation': 'inward, within',
         'examples': [{'word': 'introduce','explanation': 'v. 介绍，引入'},{'word': 'introspect','explanation': 'v. 内省，反省'}]
     },
     {
-        'name': 'iso-',
+        'name': 'iso',
         'explanation': 'equal',
         'examples': [{'word': 'isotherm','explanation': 'n. 等温线'},{'word': 'isomorphic','explanation': 'a. 同形的'}]
     },
     {
-        'name': 'kilo-',
+        'name': 'kilo',
         'explanation': 'thousand',
         'examples': [{'word': 'kilogram','explanation': 'n. 公斤'},{'word': 'kilometer','explanation': 'n. 公里'}]
     },
     {
-        'name': 'macro-',
+        'name': 'macro',
         'explanation': 'large, long',
         'examples': [{'word': 'macroworld','explanation': 'n. 宏观世界'},{'word': 'macroclimate','explanation': 'n. 大气候'}]
     },
     {
-        'name': 'mal-',
+        'name': 'mal',
         'explanation': 'badly, ill',
         'examples': [{'word': 'malcontent','explanation': 'a. 不满的'},{'word': 'malpractice','explanation': 'n. 不法行为'}]
     },
     {
-        'name': 'meta-',
+        'name': 'meta',
         'explanation': 'beyond',
         'examples': [{'word': 'metaphysics','explanation': 'n. 形而上学'},{'word': 'metapsychology','explanation': 'n. 超心理学'}]
     },
     {
-        'name': 'micro-',
+        'name': 'micro',
         'explanation': 'small',
         'examples': [{'word': 'microworld','explanation': 'n. 微观世界'},{'word': 'microbiology','explanation': 'n. 微生物学'}]
     },
     {
-        'name': 'milli-',
+        'name': 'milli',
         'explanation': 'thousandth',
         'examples': [{'word': 'millimeter','explanation': 'n. 毫米'},{'word': 'millisecond','explanation': 'n. 千分之一秒'}]
     },
     {
-        'name': 'mini-',
+        'name': 'mini',
         'explanation': 'small',
         'examples': [{'word': 'minibus','explanation': 'n. 小公共汽车'},{'word': 'miniwar','explanation': 'n. 小规模战争'}]
     },
     {
-        'name': 'mis-',
+        'name': 'mis',
         'explanation': 'wrong, bad, ill',
         'examples': [{'word': 'misspell','explanation': 'v. 拼写错误'},{'word': 'misunderstand','explanation': 'v. 误解'}]
     },
     {
-        'name': 'mono-',
+        'name': 'mono',
         'explanation': 'single, sole, alone',
         'examples': [{'word': 'monarch','explanation': 'n. 君主，独裁者'},{'word': 'monogamy','explanation': 'n. 一夫一妻制'}]
     },
     {
-        'name': 'multi-',
+        'name': 'multi',
         'explanation': 'much, many',
         'examples': [{'word': 'multilingual','explanation': 'a. 多种语言的'},{'word': 'multidirectional','explanation': 'a.多方向的'}]
     },
     {
-        'name': 'neo-',
+        'name': 'neo',
         'explanation': 'new',
         'examples': [{'word': 'neonatal','explanation': 'a. 新生的，初生的'},{'word': 'neogamist','explanation': 'n. 新婚者'}]
     },
     {
-        'name': 'non-',
+        'name': 'non',
         'explanation': 'not',
         'examples': [{'word': 'nonexistent','explanation': 'a. 不存在的'},{'word': 'nonsmoking','explanation': 'a. 不准吸烟的'}]
     },
     {
-        'name': 'ob-',
+        'name': 'ob',
         'explanation': 'against, over, about, near',
         'examples': [{'word': 'oblivion','explanation': 'n. 忘却，忘记'},{'word': 'obscure','explanation': 'a. 模糊的'}]
     },
     {
-        'name': 'octa-',
+        'name': 'octa',
         'explanation': 'eight, eighth',
         'examples': [{'word': 'octagon','explanation': 'n. 八角形'}]
     },
     {
-        'name': 'omni-',
+        'name': 'omni',
         'explanation': 'all',
         'examples': [{'word': 'omnipresent','explanation': 'a. 无所不在的'},{'word': 'omnipotent','explanation': 'a. 全能的'}]
     },
     {
-        'name': 'out-',
+        'name': 'out',
         'explanation': 'beyond; out',
         'examples': [{'word': 'outdo','explanation': 'v. 胜过，战胜'},{'word': 'outlive','explanation': 'v. 活得比…长'},{'word': 'outskirts','explanation': 'n. 郊区'},{'word': 'outflow','explanation': 'v. 流出'}]
     },
     {
-        'name': 'over-',
+        'name': 'over',
         'explanation': 'beyond; above; across',
         'examples': [{'word': 'overstudy','explanation': ' n. 用功过度'},{'word': 'overwork','explanation': ' n. 过度劳累'},{'word': 'overlap','explanation': 'n./v. 重叠'},{'word': 'overbridge','explanation': ' n. 天桥'},{'word': 'overturn','explanation': ' n. 倾覆'},{'word': 'overthrow','explanation': ' v. 推翻'}]
     },
     {
-        'name': 'paleo-',
+        'name': 'paleo',
         'explanation': 'old',
         'examples': [{'word': 'paleozoology','explanation': 'n. 古动物学'},{'word': 'paleotechnic','explanation': 'a. 古代技术的'}]
     },
     {
-        'name': 'pan-',
+        'name': 'pan',
         'explanation': 'all',
         'examples': [{'word': 'pan-American','explanation': 'a. 泛美的'},{'word': 'pandemic','explanation': 'a. 大范围流行的'}]
     },
     {
-        'name': 'para-',
+        'name': 'para',
         'explanation': 'beside; against',
         'examples': [{'word': 'paralyze','explanation': 'v. 瘫痪'},{'word': 'paragon','explanation': 'n. 典范'},{'word': 'paratroops','explanation': 'n. 空降部队'},{'word': 'paradrop','explanation': 'n. 空投，空降'}]
     },
     {
-        'name': 'pen-',
+        'name': 'pen',
         'explanation': 'almost',
         'examples': [{'word': 'peninsula','explanation': 'n. 半岛'},{'word': 'penumbra','explanation': 'n. 半阴影'}]
     },
     {
-        'name': 'penta-',
+        'name': 'penta',
         'explanation': 'five',
         'examples': [{'word': 'pentagon','explanation': 'n. 五角形， 五角大楼'},{'word': 'pentagram','explanation': 'n. 五角星形'}]
     },
     {
-        'name': 'pre-',
+        'name': 'pre',
         'explanation': 'before',
         'examples': [{'word': 'preschool','explanation': 'n. 学龄前'},{'word': 'prehistory','explanation': 'n. 史前'}]
     },
     {
-        'name': 'proto-',
+        'name': 'proto',
         'explanation': 'first',
         'examples': [{'word': 'protozoon','explanation': 'n. 原生动物'},{'word': 'protohuman','explanation': 'a. 早期原始人的'}]
     },
     {
-        'name': 'pseudo-',
+        'name': 'pseudo',
         'explanation': 'false',
         'examples': [{'word': 'pseudonym','explanation': 'n. 假名，笔名'},{'word': 'pseudoscience','explanation': 'n. 伪科学'}]
     },
     {
-        'name': 'per-',
+        'name': 'per',
         'explanation': 'through, away; false, bad',
         'examples': [{'word': 'perfidy','explanation': 'n. 不忠，背叛'},{'word': 'perfunctory','explanation': 'a. 草率的'},{'word': 'perspective','explanation': 'n. 视角，角度'},{'word': 'perennial','explanation': 'a. 全年的，终年的'}]
     },
     {
-        'name': 'peri-',
+        'name': 'peri',
         'explanation': 'around, about',
         'examples': [{'word': 'perigon','explanation': 'n. 周角'},{'word': 'periderm','explanation': 'n. 表皮'}]
     },
     {
-        'name': 'poly-',
+        'name': 'poly',
         'explanation': 'many',
         'examples': [{'word': 'polygamy','explanation': 'n. 一夫多妻制'},{'word': 'polygon','explanation': 'n. 多角形'}]
     },
     {
-        'name': 'post-',
+        'name': 'post',
         'explanation': 'after, behind',
         'examples': [{'word': 'postwar','explanation': 'a. 战后的'}]
     },
     {
-        'name': 'pro-',
+        'name': 'pro',
         'explanation': 'forward; many; for',
         'examples': [{'word': 'progress','explanation': 'n. 进步'},{'word': 'prolong','explanation': 'v. 延长'},{'word': 'prosperous','explanation': 'a. 兴旺的'},{'word': 'pro-American','explanation': 'a. 亲美的'},{'word': 'proslavery','explanation': 'a.赞成奴隶制的'}]
     },
     {
-        'name': 'quadri-',
+        'name': 'quadri',
         'explanation': 'four',
         'examples': [{'word': 'quadrangle','explanation': 'n. 四角形'},{'word': 'quadricycle','explanation': 'n. 四轮车'}]
     },
     {
-        'name': 'quasi-',
+        'name': 'quasi',
         'explanation': 'partly',
         'examples': [{'word': 'quasi-official','explanation': 'n. 半官方的'},{'word': 'quasi-war','explanation': 'n. 准战争'}]
     },
     {
-        'name': 're-',
+        'name': 're',
         'explanation': 'back; again',
         'examples': [{'word': 'recall','explanation': 'v. 回忆'},{'word': 'reflect','explanation': 'v. 回想，反射'},{'word': 'reappear','explanation': 'v. 再出现'},{'word': 'rearrange','explanation': 'v. 重新安排'}]
     },
     {
-        'name': 'retro-',
+        'name': 'retro',
         'explanation': 'backward',
         'examples': [{'word': 'retrograde','explanation': 'v. 后退，倒退'},{'word': 'retrogress','explanation': 'v. 倒退，退化'}]
     },
     {
-        'name': 'se-',
+        'name': 'se',
         'explanation': 'away; apart',
         'examples': [{'word': 'secede','explanation': 'v. 正式退出组织'},{'word': 'select','explanation': 'v. 选出'}]
     },
     {
-        'name': 'semi-',
+        'name': 'semi',
         'explanation': 'half',
         'examples': [{'word': 'semimonthly','explanation': 'n. 半月刊'},{'word': 'semicircle','explanation': 'n. 半圆'}]
     },
     {
-        'name': 'sept-',
+        'name': 'sept',
         'explanation': 'seven',
         'examples': [{'word': 'septangle','explanation': 'n. 七角形'},{'word': 'September','explanation': 'n. 九月（古罗马的七月）'}]
     },
     {
-        'name': 'sex-',
+        'name': 'sex',
         'explanation': 'six',
         'examples': [{'word': 'sexangle','explanation': 'n. 六角形'},{'word': 'sexdigital','explanation': 'a. 六指的'}]
     },
     {
-        'name': 'step-',
+        'name': 'step',
         'explanation': 'orphaned',
         'examples': [{'word': 'stepfather','explanation': 'n. 继父'}]
     },
     {
-        'name': 'stereo-',
+        'name': 'stereo',
         'explanation': 'having 3D of space',
         'examples': [{'word': 'stereosonic','explanation': 'a. 立体声的'},{'word': 'stereograph','explanation': 'n. 立体照片'}]
     },
     {
-        'name': 'sub-',
+        'name': 'sub',
         'explanation': 'under; near',
         'examples': [{'word': 'submerge','explanation': 'v. 沉没，淹没'},{'word': 'subordinate','explanation': 'a. 附属的'},{'word': 'subcentral','explanation': 'a. 接近中心的'},{'word': 'subadult','explanation': 'a. 接近成年的'}]
     },
     {
-        'name': 'suX-',
+        'name': 'suc, suf, sup, sur, sus',
         'explanation': 'under',
         'examples': [{'word': 'suffer','explanation': 'v. 受苦'},{'word': 'supplant','explanation': 'v. 排挤，取代'}]
     },
     {
-        'name': 'supra-',
+        'name': 'supra',
         'explanation': 'over, above',
         'examples': [{'word': 'supra-class','explanation': 'a. 超阶级的'},{'word': 'supranational','explanation': 'a. 超国家的'}]
     },
     {
-        'name': 'sur-',
+        'name': 'sur',
         'explanation': 'above, over',
         'examples': [{'word': 'surface','explanation': 'n. 表面'},{'word': 'surpass','explanation': 'v. 超过'}]
     },
     {
-        'name': 'super-',
+        'name': 'super',
         'explanation': 'over; above',
         'examples': [{'word': 'supersonic','explanation': 'a. 超音速的'},{'word': 'supernatural','explanation': 'a. 超自然的'},{'word': 'superstructure','explanation': 'n. 上层建筑'},{'word': 'superimpose','explanation': 'v. 强加'}]
     },
     {
-        'name': 'sus-',
-        'explanation': 'under',
-        'examples': [{'word': 'sustain','explanation': 'v. 支撑，承受'},{'word': 'suspend','explanation': 'v. 悬挂，中止'}]
-    },
-    {
-        'name': 'sym-, syn-',
+        'name': 'sym, syn',
         'explanation': 'with, together',
         'examples': [{'word': 'sympathy','explanation': 'n. 同情'},{'word': 'symphony','explanation': 'n. 交响乐'}]
     },
     {
-        'name': 'tetra-',
+        'name': 'tetra',
         'explanation': 'four',
         'examples': [{'word': 'tetragon','explanation': 'n. 四角形'}]
     },
     {
-        'name': 'trans-',
+        'name': 'trans',
         'explanation': 'across; beyond',
         'examples': [{'word': 'transparent','explanation': 'a. 透明的'},{'word': 'transmit','explanation': 'v. 传播，传送'},{'word': 'transform','explanation': 'v. 变形'},{'word': 'transplant','explanation': 'v. 移植'}]
     },
     {
-        'name': 'tri-',
+        'name': 'tri',
         'explanation': 'three',
         'examples': [{'word': 'triangle','explanation': 'n. 三角形'}]
     },
     {
-        'name': 'twi-',
+        'name': 'twi',
         'explanation': 'two',
         'examples': [{'word': 'twilight','explanation': 'n. 黎明，黄昏'},{'word': 'twofold','explanation': 'n. 两倍'}]
     },
     {
-        'name': 'ultra-',
+        'name': 'ultra',
         'explanation': 'extreme; beyond',
         'examples': [{'word': 'ultramilitant','explanation': 'a. 极端好战的'},{'word': 'ultraclean','explanation': 'a. 极洁净的'},{'word': 'ultrasonic','explanation': 'a. 超音速的'},{'word': 'ultramodern','explanation': 'a. 超现代化'}]
     },
     {
-        'name': 'un-',
+        'name': 'un',
         'explanation': 'no; up',
         'examples': [{'word': 'unreal','explanation': 'a. 不真实的'},{'word': 'unequal','explanation': 'a. 不平等的'},{'word': 'unlock','explanation': 'v. 开锁'},{'word': 'unbind','explanation': 'v. 解开'}]
     },
     {
-        'name': 'under-',
+        'name': 'under',
         'explanation': 'under; not enough; beneath',
         'examples': [{'word': 'underground','explanation': 'a. 地下的'},{'word': 'underline','explanation': 'v. 划线于'},{'word': 'underestimate','explanation': 'v. 估计不足'},{'word': 'underdeveloped','explanation': 'a. 不发达的'},{'word': 'underagent','explanation': 'n. 副代理人'},{'word': 'underofficer','explanation': 'n. 下级官员'}]
     },
     {
-        'name': 'uni-',
+        'name': 'uni',
         'explanation': 'one',
         'examples': [{'word': 'uniform','explanation': 'a. 一贯的，一致的'},{'word': 'unique','explanation': 'a. 独一无二的'}]
     },
     {
-        'name': 'vice-',
+        'name': 'vice',
         'explanation': 'in place of',
         'examples': [{'word': 'vice-president','explanation': 'n. 副总统'}]
     },
     {
-        'name': 'with-',
+        'name': 'with',
         'explanation': 'against',
         'examples': [{'word': 'withdraw','explanation': 'v. 撤消，撤退'},{'word': 'withhold','explanation': 'v. 阻止'}]
     },
